@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFC000</item>
+        <item name="colorPrimaryDark">#FFC000</item>
+        <item name="colorAccent">#FFC000</item>
+    </style>
+
+    <!--<style name="AppTheme.NoActionBar">-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme.NoActionBar">-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Autocomplete" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:background">#d6d6c2</item>
+        <item name="colorControlNormal">#FFA726</item>
+        <item name="colorControlActivated">#FDD835</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!-- -->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:src="@mipmap/ic_ad"/>-->
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:text="Categories"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="MORE"
+                    android:textColor="#F9A825"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:onClick="openCategories"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="10dp" />
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/categories_sweets"
+                        layout="@layout/custom_cardview_home"
+                        android:onClick="openSweets"/>
+                    <include
+                        android:id="@+id/categories_savouries"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_cakes"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_snacks"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_finedine"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_dryfruits"
+                        layout="@layout/custom_cardview_home"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Featured Products"
+                android:paddingTop="@dimen/_10sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="10dp" />
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/featured_one"
+                        layout="@layout/custom_cardview_home" />
+                    <include
+                        android:id="@+id/featured_two"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/featured_three"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/featured_four"
+                        layout="@layout/custom_cardview_home"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Latest Products"
+                android:paddingTop="@dimen/_10sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="10dp" />
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/latest_one"
+                        layout="@layout/custom_cardview_home" />
+                    <include
+                        android:id="@+id/latest_two"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/latest_three"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/latest_four"
+                        layout="@layout/custom_cardview_home"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Best Sellers"
+                android:paddingTop="@dimen/_10sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="10dp" />
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/bestseller_one"
+                        layout="@layout/custom_cardview_home" />
+                    <include
+                        android:id="@+id/bestseller_two"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/bestseller_three"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/bestseller_four"
+                        layout="@layout/custom_cardview_home"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Specials"
+                android:paddingTop="@dimen/_10sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="10dp" />
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/specials_one"
+                        layout="@layout/custom_cardview_home" />
+                    <include
+                        android:id="@+id/specials_two"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/specials_three"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/specials_four"
+                        layout="@layout/custom_cardview_home"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

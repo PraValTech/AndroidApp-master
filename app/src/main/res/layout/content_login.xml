@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.Login"
+    tools:showIn="@layout/activity_login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp">
+
+        <!--  Login Name -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_login_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login Name"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Password -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- Login Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/create_account_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_style"
+            android:onClick="onClickLogin"
+            android:padding="12dp"
+            android:text="Login"
+            android:textColor="@color/md_white_1000" />
+
+
+
+        <android.support.v7.widget.AppCompatButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_style"
+            android:onClick="onClickRegister"
+            android:padding="12dp"
+            android:text="Register"
+            android:textColor="@color/md_white_1000" />
+
+
+        <TextView
+            android:id="@+id/forgot_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_login"/>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_password"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
