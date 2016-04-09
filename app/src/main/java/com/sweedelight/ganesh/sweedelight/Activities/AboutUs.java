@@ -29,6 +29,6 @@ public class AboutUs extends AppCompatActivity {
         webView.loadData(getString(R.string.about_us_content), "text/html", "utf-8");
         webView.setBackgroundColor(0x00000000);         //set background to transparent
     }
-
+    //test
 
 }
