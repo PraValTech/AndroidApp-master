@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sweedelight.ganesh.sweedelight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.AccountDashboard"
+            android:label="@string/title_activity_account"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.AccountDetails"
+            android:label="@string/title_activity_account_details"
+            android:parentActivityName=".Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:parentActivityName=".Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.AddressBook"
+            android:label="@string/title_activity_address_book"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.EditAddressBook"
+            android:label="@string/title_activity_edit_address_book"
+            android:parentActivityName="Activities.AddressBook"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AddressBook" />
+        </activity>
+        <activity
+            android:name=".Activities.WishList"
+            android:label="@string/title_activity_wish_list"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.OrderHistory"
+            android:label="@string/title_activity_order_history"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.TransactionHistory"
+            android:label="@string/title_activity_transaction_history"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.RewardPoints"
+            android:label="@string/title_activity_reward_points"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.NewsletterSubscription"
+            android:label="@string/title_activity_newsletter_subscription"
+            android:parentActivityName="Activities.AccountDashboard"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard" />
+        </activity>
+        <activity
+            android:name=".Activities.Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.ImageSlider"
+            android:label="@string/title_activity_image_slider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.Location" />
+        <activity
+            android:name=".Activities.Legal"
+            android:parentActivityName=".Activities.MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".Activities.Sweets"
+            android:label="@string/title_activity_sweets"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Categories"
+            android:label="@string/title_activity_categories"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Offers"
+            android:label="@string/title_activity_offers"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.Savouries"
+            android:label="@string/title_activity_savouries"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Categories" />
+        </activity>
+        <activity
+            android:name=".Activities.Review"
+            android:label="@string/title_activity_review"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.IndividualItemActivity"
+            android:label="@string/title_activity_individual_item"
+            android:parentActivityName=".Activities.Sweets"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Sweets" />
+        </activity>
+        <activity
+            android:name=".Activities.Cakes"
+            android:label="@string/title_activity_cakes"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Categories" />
+        </activity>
+        <activity
+            android:name=".Activities.Snacks"
+            android:label="@string/title_activity_snacks"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Categories" />
+        </activity>
+        <activity
+            android:name=".Activities.Finedines"
+            android:label="@string/title_activity_finedines"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Categories" />
+        </activity>
+        <activity
+            android:name=".Activities.Dryfruits"
+            android:label="@string/title_activity_dryfruits"
+            android:parentActivityName=".Activities.Categories"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.Categories" />
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Activities.Login"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.ShoppingCart"
+            android:label="@string/title_activity_shopping_cart"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sweedelight.ganesh.sweedelight.Activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
