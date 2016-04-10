@@ -1,9 +1,11 @@
 package com.sweedelight.ganesh.sweedelight.Activities;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -49,16 +51,26 @@ public class Location extends AppCompatActivity {
         autocompleteView_area.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View arg0) {
+
                 autocompleteView_area.showDropDown();
                 System.out.print("entered into area");
                 if (autocompleteView_area.getListSelection() > 0) {
                     flag1 = 1;
+
                     //System.out.println(flag + "flag at area");
                 } else
+                {
                     flag1 = 0;
 
+                }
+
+                InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                in.hideSoftInputFromWindow(arg0.getWindowToken(), 0);
+
             }
+
         });
+
         autocompleteView_city.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View arg0) {
@@ -68,6 +80,8 @@ public class Location extends AppCompatActivity {
                     flag2 = 1;
                 else
                     flag2 = 0;
+                InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                in.hideSoftInputFromWindow(arg0.getWindowToken(), 0);
             }
         });
         autocompleteView_store.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +93,8 @@ public class Location extends AppCompatActivity {
                     flag3 = 1;
                 else
                     flag3 = 0;
+                InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                in.hideSoftInputFromWindow(arg0.getWindowToken(), 0);
             }
         });
 //        autocompleteView_area.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -104,6 +120,8 @@ public class Location extends AppCompatActivity {
 
             }
         });
+
+
     }
 
     public void callMainActivity(View view) {

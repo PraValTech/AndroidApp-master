@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\side_nav_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_user_image.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_user_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\cartdelete.png",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\cartdelete.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_user.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\b.png",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\b.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_arrow_back.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_contactus.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_contactus.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_shopping_cart.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_bg_white_rounded_rect.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\shape_bg_white_rounded_rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_logout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_cart.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_home.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_specials.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_specials.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_categories.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_myaccount.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_myaccount.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\metro.jpg",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\metro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_login.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable-v21\\ic_login.xml"
+    }
+]

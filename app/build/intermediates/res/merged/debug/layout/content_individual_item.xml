@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity"
+    tools:showIn="@layout/activity_individual_item">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view_current_project"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        card_view:cardCornerRadius="4dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/_10sdp"
+                >
+                <ImageView
+                    android:id="@+id/categories_image"
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/s5"
+                    android:scaleType="fitXY"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:id="@+id/itemname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kaju Katli"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="30sp"
+                        android:layout_marginTop="15dp"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:textColor="#F57C00"
+                        />
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:id="@+id/itemprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₹100"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="30sp"
+                        android:layout_marginTop="15dp"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:textColor="#F57C00"
+                        />
+                    <TextView
+                        android:id="@+id/item_sub_title"
+                        android:text="Subtitle lorem ipsum lorem ipsum lorem ipsum "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="2dp"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/lin1"
+                        android:ellipsize="end"
+                        android:maxLines="3"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/textview2_sub_title"
+                    android:text="Weight selection/Per box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="2dp"
+                    android:textSize="18sp"
+                    android:layout_below="@+id/lin1"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--com.weiwangcn.betterspinner:library:1.1.0-->
+                    <!--<com.weiwangcn.betterspinner.library.BetterSpinner-->
+                    <!--android:id="@+id/spinner1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:hint="Weight"-->
+                    <!--android:entries="@array/weight"-->
+                    <!--android:layout_marginLeft="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+
+                    <!--/>-->
+                    <!--https://github.com/himanshu-soni/QuantityView-->
+                    <!--<android.support.design.widget.TabLayout-->
+                    <!--android:id="@+id/tabs"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:tabBackground="@color/md_orange_400"-->
+                    <!--app:tabIndicatorColor="@color/md_white_1000"-->
+                    <!--android:fillViewport="false" />-->
+
+                    <AutoCompleteTextView
+                        android:id="@+id/weight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Weight"
+                        android:theme="@style/Autocomplete"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        />
+                    <!--http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/-->
+                </LinearLayout>
+
+                <me.himanshusoni.quantityview.QuantityView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/quantityView_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="10dp"
+                    app:qv_quantity="0"
+                    app:qv_quantityBackground="#ECEFF1"
+                    app:qv_removeButtonBackground="#FFC000"
+                    app:qv_addButtonBackground="#FFC000"
+
+                    />
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabsindiv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:tabBackground="@color/md_yellow_700"
+                    app:tabIndicatorColor="@color/md_lime_A200"
+                    />
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/containerindiv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/md_yellow_700"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/button_style"
+                    android:padding="12dp"
+                    android:text="Add to cart"
+                    android:textColor="@color/md_white_1000"
+                    android:onClick="callMainActivity"
+                    android:layout_below="@+id/Store"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
