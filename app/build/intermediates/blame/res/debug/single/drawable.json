@@ -12,12 +12,12 @@
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cart.png",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s5.jpg",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable\\s5.jpg"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_button.png",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable\\delete_button.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s5.jpg",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\drawable\\s5.jpg"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",

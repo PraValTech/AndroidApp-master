@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -38,6 +39,7 @@ public class Login extends AppCompatActivity implements AsyncResponse{
     SharedPreferences.Editor editor;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +47,6 @@ public class Login extends AppCompatActivity implements AsyncResponse{
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         username = (TextInputEditText)findViewById(R.id.input_login_name);
         password = (TextInputEditText)findViewById(R.id.input_password);
 
@@ -91,8 +92,10 @@ public class Login extends AppCompatActivity implements AsyncResponse{
                     editor.putString("login_name", username_string);
                     editor.putString("token", token);
                     editor.commit();
+
                     Log.i("Token", settings.getString("token", ""));
                     Toast.makeText(this, "Logged in successfully!", Toast.LENGTH_SHORT).show();
+                    settings.edit().putString("logintoken","valid").apply();
                 }
                 else
                 {
@@ -101,6 +104,7 @@ public class Login extends AppCompatActivity implements AsyncResponse{
             }
             catch(Exception e)
             {
+
                 Log.e("ERROR", e.getMessage(), e);
                 Toast.makeText(this, "There was an error! Try again!", Toast.LENGTH_SHORT).show();
             }

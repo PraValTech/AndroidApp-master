@@ -32,28 +32,28 @@
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_dryfruits.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about_us.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_about_us.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cakes.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_cakes.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cakes.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_cakes.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about_us.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_about_us.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_cart.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finedines.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_finedines.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_address_book.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_edit_address_book.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finedines.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_finedines.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_cart.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_about_us.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_slider.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_about_us.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
