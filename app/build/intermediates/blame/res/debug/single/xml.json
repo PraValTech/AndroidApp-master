@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\xml\\preferences.xml"
     }

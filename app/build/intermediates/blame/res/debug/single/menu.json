@@ -1,26 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sweets.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_sweets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_finedines.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_finedines.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_finedines.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_finedines.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sweets.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_sweets.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_snacks.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_snacks.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_savouries.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_savouries.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sweets.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_sweets.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_snacks.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_snacks.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_savouries.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\menu\\menu_savouries.xml"
     }
 ]

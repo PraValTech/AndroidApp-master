@@ -21,7 +21,7 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
     StringBuilder sbParams;
     String charset = "UTF-8";
     String param_string;
-    String API_URL = "http://www.sweedelight.com/index.php";
+    String API_URL = "http://www.sweedelight.com/index.php?";
     String API_KEY = "sweedelight800";
     String token = null;
     String cookies;
@@ -37,6 +37,9 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
         this.params.put("api_key", API_KEY);
         this.delegate = delegate;
         this.cookies = context.getResources().getString(R.string.cookies);
+        String rt = this.params.remove("rt");
+        API_URL = API_URL + "rt="+rt;
+        Log.i("API_URL",API_URL);
     }
 
     protected void onPreExecute() {
@@ -58,12 +61,11 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
             }
             i++;
 
-            if(key.equals("token"))
-            {
+            if (key.equals("token")) {
                 token = params.get(key);
             }
         }
-
+        Log.i("Parameter String",sbParams.toString());
     }
 
     protected String doInBackground(Void... urls) {
@@ -77,7 +79,7 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("POST");
                 if (token != null)
-                    urlConnection.addRequestProperty("Cookie", cookies+token);
+                    urlConnection.addRequestProperty("Cookie", cookies + token);
                 urlConnection.setDoOutput(true);
                 urlConnection.connect();
 
@@ -90,12 +92,12 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
 
             } else    //if method type is get then add params to URL
             {
-                String full_url = API_URL + "?" + sbParams.toString();
+                String full_url = API_URL + "&" + sbParams.toString();
                 Log.i("URL", full_url);
                 URL url = new URL(full_url);
                 urlConnection = (HttpURLConnection) url.openConnection();
                 if (token != null)
-                    urlConnection.addRequestProperty("Cookie", cookies+token);
+                    urlConnection.addRequestProperty("Cookie", cookies + token);
                 urlConnection.setDoInput(true);
                 urlConnection.setDoOutput(false);
                 urlConnection.setUseCaches(false);

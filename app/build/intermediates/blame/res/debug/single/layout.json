@@ -1,538 +1,1074 @@
 [
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_location.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\tool_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_offers.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_offers.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dryfruits.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_dryfruits.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cakes.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_cakes.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about_us.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_about_us.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finedines.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_finedines.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_address_book.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_edit_address_book.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_cart.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_address_book.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_address_book.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_slider.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_image_slider.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_about_us.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_dashboard.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_password.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_change_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_details.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sweets.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_sweets.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_reward_points.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_reward_points.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_change_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_shopping_cart.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_shopping_cart.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reward_points_list_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\reward_points_list_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dryfruits.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_dryfruits.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_savouries.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_savouries.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_individual_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_individual_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_newsletter_subscription.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_newsletter_subscription.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_details.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wish_list_list_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\wish_list_list_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wish_list.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_wish_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_wish_list.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_wish_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finedines.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_finedines.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_description.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_description.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_categories.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_categories.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_address_book.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_edit_address_book.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_cakes.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_cakes.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_dashboard.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\suggest_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\suggest_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_history.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_order_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_image_slider.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_image_slider.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_individual_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_individual_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reward_points.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_reward_points.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingimage.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\slidingimage.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag_review.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_frag_review.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_legal2.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_legal2.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_transaction_history.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_transaction_history.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_image_slider.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_image_slider.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_register.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_register.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingimage.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\slidingimage.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_snacks.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_snacks.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_header.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\address_list_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_transaction_history.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_transaction_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_individual_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_individual_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\slider_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_newsletter_subscription.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_newsletter_subscription.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_list_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\account_list_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_book.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_address_book.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_snacks.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_snacks.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction_history.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_transaction_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_review.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_review.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dp_example.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\dp_example.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_history_list_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\order_history_list_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_order_history.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_order_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transaction_history_list_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\transaction_history_list_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_cardview_home.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom_cardview_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sweets.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_sweets.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_text.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_review.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_review.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag_review.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_frag_review.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_password.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_change_password.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_cardview_category.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom_cardview_category.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_categories.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_categories.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_header.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\address_list_header.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_newsletter_subscription.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_newsletter_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dryfruits.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_dryfruits.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_shopping_cart.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_dashboard.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wish_list.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_wish_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cakes.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_cakes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dryfruits.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_dryfruits.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_individual_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_individual_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_cart.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_history_list_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\order_history_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_order_history.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_layout.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\indicator_layout.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_savouries.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_savouries.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_register.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_register.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_child.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\address_list_child.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offers.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_offers.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_login.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_details.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_details.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qv_dialog_changequantity.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\me.himanshusoni.quantityview\\quantity-view\\1.1.1\\res\\layout\\qv_dialog_changequantity.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_legal2.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_legal2.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_address_book.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_edit_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_list_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\account_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_cardview_home.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom_cardview_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_individual_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_individual_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_book.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sweets.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_sweets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_offers.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_savouries.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_savouries.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_savouries.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_savouries.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_history_list_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\order_history_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offers.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_details.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_dashboard.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdp_example.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\sdp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sweets.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_sweets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qv_dialog_changequantity.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\me.himanshusoni.quantityview\\quantity-view\\1.1.1\\res\\layout\\qv_dialog_changequantity.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_savouries.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_savouries.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_card_view.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\item_card_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_description.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_order_history.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction_history.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_transaction_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_address_book.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_history.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_history.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_cardview_category.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom_cardview_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdp_example.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\sdp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_child.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\address_list_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_newsletter_subscription.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_newsletter_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_categories.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_reward_points.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_reward_points.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_snacks.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_snacks.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\suggest_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\suggest_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_address_book.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_wish_list.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_wish_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reward_points.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_reward_points.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dryfruits.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_dryfruits.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_dashboard.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_account_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_address_book.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_edit_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_address_book.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_edit_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_details.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sweets.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_sweets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dp_example.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\dp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finedines.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_finedines.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_slider.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction_history.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_transaction_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_individual_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_individual_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_list_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\account_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_book.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offers.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_savouries.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_savouries.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cakes.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_cakes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qv_dialog_changequantity.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\me.himanshusoni.quantityview\\quantity-view\\1.1.1\\res\\layout\\qv_dialog_changequantity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_review.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_review.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\suggest_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.miguelcatalan\\materialsearchview\\1.4.0\\res\\layout\\suggest_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transaction_history_list_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\transaction_history_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_individual_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_individual_item.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_card_view.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\item_card_view.xml"
     },
     {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_wish_list.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_wish_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_frag_review.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_frag_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_shopping_cart.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wish_list_list_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\wish_list_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_password.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingimage.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\slidingimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finedines.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_finedines.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_dashboard.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transaction_history_list_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\transaction_history_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_cakes.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_cakes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_transaction_history.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_transaction_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_categories.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finedines.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_finedines.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_header.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\address_list_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_newsletter_subscription.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_newsletter_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_reward_points.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_reward_points.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_account_details.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_account_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_review.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_snacks.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_snacks.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_register.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_slider.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_offers.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_categories.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_cart.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dryfruits.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_dryfruits.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_legal2.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_legal2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_newsletter_subscription.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_newsletter_subscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_individual_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_individual_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_review.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finedines.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_finedines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wish_list_list_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\wish_list_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_individual_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_individual_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_description.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wish_list.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_wish_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reward_points.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_reward_points.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_snacks.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_snacks.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about_us.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_cardview_home.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom_cardview_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\indicator_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sweets.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_sweets.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reward_points_list_layout.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\reward_points_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dp_example.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\dp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_categories.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about_us.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_snacks.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\fragment_snacks.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reward_points_list_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\reward_points_list_layout.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
         "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdp_example.xml",
-        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.intuit.sdp\\sdp-android\\1.0.2\\res\\layout\\sdp_example.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_cakes.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_cakes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_image_slider.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\content_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_address_book.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\src\\main\\res\\layout\\activity_edit_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Warhawk\\Desktop\\SweeDelight\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\admin\\Desktop\\wtf\\AndroidApp-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
     }
 ]
