@@ -21,8 +21,7 @@ public class AccountDashboard extends AppCompatActivity implements AsyncResponse
             R.drawable.account, R.drawable.password,
             R.drawable.address, R.drawable.wish,
             R.drawable.order, R.drawable.transaction,
-            R.drawable.reward, R.drawable.newsletter,
-            R.drawable.logout};
+            R.drawable.reward,R.drawable.logout};
 
     private String[] mLabels;
     SharedPreferences settings;
@@ -73,10 +72,7 @@ public class AccountDashboard extends AppCompatActivity implements AsyncResponse
                     case 6: // Rewards Points
                             startActivity(new Intent(AccountDashboard.this,RewardPoints.class));
                             break;
-                    case 7: // Newsletter Subscription
-                            startActivity(new Intent(AccountDashboard.this,NewsletterSubscription.class));
-                            break;
-                    case 8: // Log Out
+                    case 7: // Log Out
                             HashMap<String,String> params = new HashMap();
                             params.put("rt","a/account/logout");
                             params.put("token",settings.getString("token",""));
