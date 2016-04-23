@@ -3,6 +3,8 @@ package com.sweedelight.ganesh.sweedelight.Fragments;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -17,12 +19,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+import com.sweedelight.ganesh.sweedelight.Activities.AsyncResponse;
 import com.sweedelight.ganesh.sweedelight.Activities.Categories;
+import com.sweedelight.ganesh.sweedelight.Activities.HTTPTask;
 import com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity;
 import com.sweedelight.ganesh.sweedelight.Activities.RecyclerTouchListener;
+import com.sweedelight.ganesh.sweedelight.Activities.Sweets;
 import com.sweedelight.ganesh.sweedelight.R;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -34,12 +48,13 @@ import java.util.List;
  * create an instance of this fragment.
  */
 @SuppressLint("ValidFragment")
-public class SweetsFragment extends Fragment {
+public class SweetsFragment extends Fragment implements AsyncResponse {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private List<Barfi> sweetsList;
+    private static List<Barfi> sweetsList = new ArrayList<>();
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private int index ;
@@ -47,6 +62,11 @@ public class SweetsFragment extends Fragment {
     private RecyclerView mRecyclerView;
     private OnFragmentInteractionListener mListener;
     private SweetsAdapter adapter;
+    HTTPTask api_call;
+    HashMap<String, String> params;
+    int page=0;
+    int current_page=0;
+    String result;
 
     public SweetsFragment(int index) {
         // Required empty public constructor
@@ -66,8 +86,9 @@ public class SweetsFragment extends Fragment {
         SweetsFragment fragment = new SweetsFragment(index);
         Bundle args = new Bundle();
         this.index=index;
-        Log.d("hi",""+index);
-        args.putInt("index",index);
+        args.putInt("index", index);
+
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -79,6 +100,18 @@ public class SweetsFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        params = new HashMap<>();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "74");
+        params.put("page", "2");
+
+
+        api_call = new HTTPTask("GET", params, this, getContext());
+        api_call.execute();
+
+//        params.put("page","2");
+//        api_call = new HTTPTask("GET", params, this, getContext());
+//        api_call.execute();
 
 
 
@@ -100,17 +133,21 @@ public class SweetsFragment extends Fragment {
         mLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
 
-        initializeData();
-        Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
-        adapter = new SweetsAdapter(sweetsList);
-        mRecyclerView.setAdapter(adapter);
+      // result= Sweets.getResult();
+       // initializeData(result);
+        //Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
+//        adapter = new SweetsAdapter(sweetsList);
+//        mRecyclerView.setAdapter(adapter);
         mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
                 Barfi barfi = sweetsList.get(position);
                 Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+                in.putExtra("name",barfi.getName());
+                in.putExtra("thumb",barfi.getThumb());
+                in.putExtra("desc",barfi.getDesc());
+                in.putExtra("price",barfi.getPrice());
                 startActivity(in);
-
             }
 
             @Override
@@ -146,7 +183,64 @@ public class SweetsFragment extends Fragment {
         mListener = null;
     }
 
-    /**
+    @Override
+    public void processFinish(String output) {
+        JSONObject result = null;
+        boolean isFirst=false;
+            try {
+            result = new JSONObject(output);
+            page= Integer.parseInt(result.getString("total"));
+            current_page= result.getInt("page");
+            JSONArray items= result.getJSONArray("rows");
+            JSONObject curr_item;
+            JSONObject curr_sweet;
+
+                if(current_page==1)
+                {
+                    isFirst=true;
+                }
+            int l= items.length();
+            Log.v("length", l+"");
+            for (int i=0; i<l; i++) {
+                curr_item = items.getJSONObject(i);
+                curr_sweet = curr_item.getJSONObject("cell");
+                Log.v("in for loop", curr_sweet.toString());
+                sweetsList.add(new Barfi(curr_sweet.getString("name"),
+                        curr_sweet.getString("thumb"),
+                        curr_sweet.getString("description"),
+                        curr_sweet.getInt("price")
+                ));
+            }
+
+                for(int k=0; k<sweetsList.size(); k++)
+                {
+                    Log.v("item",sweetsList.get(k)+"");
+                }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        finally {
+
+//            if(page>current_page)
+//            {
+//                params.put("page", (current_page+1)+"");
+//                api_call = new HTTPTask("GET",params,this,getContext());
+//                api_call.execute();
+//
+//            }
+//            else {
+         //       if(isFirst)
+                adapter = new SweetsAdapter(sweetsList);
+           //     else
+             //   adapter.notifyDataSetChanged();
+                mRecyclerView.setAdapter(adapter);
+            //}
+        }
+    }
+
+
+        /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
      * to the activity and potentially other fragments contained in that
@@ -159,127 +253,6 @@ public class SweetsFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
-    }
-    private void initializeData() {
-        sweetsList= new ArrayList<>();
-        Log.d("hell",""+index);
-        if(index == 0 ) {
-            sweetsList.add(new Barfi("Kalakhand", R.drawable.s4));
-            sweetsList.add(new Barfi("Bikaneri Square", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Barfi", R.drawable.s4));
-            sweetsList.add(new Barfi("Rose Square", R.drawable.s4));
-            sweetsList.add(new Barfi("Pinni", R.drawable.s4));
-            sweetsList.add(new Barfi("Moti Bhog", R.drawable.s4));
-        } else if(index==1){
-            sweetsList.add(new Barfi("Rajbhog", R.drawable.s4));
-            sweetsList.add(new Barfi("Rasgulla", R.drawable.s4));
-            sweetsList.add(new Barfi("Jalebi", R.drawable.s4));
-            sweetsList.add(new Barfi("Malai Sandwich", R.drawable.s4));
-            sweetsList.add(new Barfi("Jahangiri", R.drawable.s4));
-            sweetsList.add(new Barfi("Chandrakala", R.drawable.s4));
-            sweetsList.add(new Barfi("Sweet bondi", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Malai Chamcham", R.drawable.s4));
-            sweetsList.add(new Barfi("Matka Rasgulla", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Doodh Chamcham", R.drawable.s4));
-            sweetsList.add(new Barfi("Chamcham", R.drawable.s4));
-            sweetsList.add(new Barfi("Kheer Kadam", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Basundi", R.drawable.s4));
-        } else if(index==2){
-            sweetsList.add(new Barfi("Dryfruit Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Motichur Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Motichur Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Gond Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Boondi Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Coconut Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Pista Big Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Laddoo", R.drawable.s4));
-
-        } else if(index==3){
-            sweetsList.add(new Barfi("Chota Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Dharwad Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Choco Chips Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Mathura Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Mango Delight", R.drawable.s4));
-            sweetsList.add(new Barfi("Honey Butterscotch", R.drawable.s4));
-        } else if(index==4){
-            sweetsList.add(new Barfi("Kaju Takus", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju SuryaMukhi", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Strawberry", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju TIlak", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Tokri", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Paan", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Katli", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Roll", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Sandwich", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Kalash", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Ball", R.drawable.s4));
-        } else if(index==5){
-            sweetsList.add(new Barfi("Kaju Choco Roll", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Biscuits", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Basket", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Ball", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Dil", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Gujiya", R.drawable.s4));
-            sweetsList.add(new Barfi("DryFruits", R.drawable.s4));
-            sweetsList.add(new Barfi("Kaju Sangam Barfi", R.drawable.s4));
-        } else if(index==6){
-            sweetsList.add(new Barfi("Malai Sandwich", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Doodh Chamcham", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Chena Payas", R.drawable.s4));
-            sweetsList.add(new Barfi("Moti Paak", R.drawable.s4));
-            sweetsList.add(new Barfi("Strawberry Petha", R.drawable.s4));
-            sweetsList.add(new Barfi("Matka Rasgulla", R.drawable.s4));
-            sweetsList.add(new Barfi("Malai Puri", R.drawable.s4));
-            sweetsList.add(new Barfi("Kheer Kadam", R.drawable.s4));
-        } else if(index==6){
-            sweetsList.add(new Barfi("Malai Sandwich", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Doodh Chamcham", R.drawable.s4));
-            sweetsList.add(new Barfi("Spl Chena Payas", R.drawable.s4));
-            sweetsList.add(new Barfi("Moti Paak", R.drawable.s4));
-            sweetsList.add(new Barfi("Strawberry Petha", R.drawable.s4));
-            sweetsList.add(new Barfi("Matka Rasgulla", R.drawable.s4));
-            sweetsList.add(new Barfi("Malai Puri", R.drawable.s4));
-            sweetsList.add(new Barfi("Kheer Kadam", R.drawable.s4));
-        }
-        else if(index==7){
-            sweetsList.add(new Barfi("Soan Papdi", R.drawable.s4));
-            sweetsList.add(new Barfi("Motichur Laddoo", R.drawable.s4));
-            sweetsList.add(new Barfi("Chocolate Soan Papdi", R.drawable.s4));
-            sweetsList.add(new Barfi("Malai Ghevar ", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Ghevar", R.drawable.s4));
-            sweetsList.add(new Barfi("Gujiya", R.drawable.s4));
-            sweetsList.add(new Barfi("Moong Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Bajusahi", R.drawable.s4));
-        }
-        else if(index==8){
-            sweetsList.add(new Barfi("Badam Gini", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Fancy Roll", R.drawable.s4));
-            sweetsList.add(new Barfi("Milk Cake", R.drawable.s4));
-            sweetsList.add(new Barfi("White Kalakand", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Chota Peda", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Roll", R.drawable.s4));
-            sweetsList.add(new Barfi("Kesar Peda", R.drawable.s4));
-        }
-        else if(index==9){
-            sweetsList.add(new Barfi("Moong Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Halwa",R.drawable.s4));
-            sweetsList.add(new Barfi("Soan Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Bombay Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Dryfruit Halwa", R.drawable.s4));
-
-        }else {
-            sweetsList.add(new Barfi("Moong Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Badam Halwa",R.drawable.s4));
-            sweetsList.add(new Barfi("Soan Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Bombay Halwa", R.drawable.s4));
-            sweetsList.add(new Barfi("Dryfruit Halwa", R.drawable.s4));
-
-
-        }
-
     }
 
     public interface ClickListener {
@@ -303,7 +276,11 @@ public class SweetsFragment extends Fragment {
         @Override
         public void onBindViewHolder(BarfiViewHolder holder, int position) {
             holder.sweetsListName.setText(sweetsList.get(position).name);
-            holder.sweetsListPhoto.setImageResource(sweetsList.get(position).photoId);
+           Picasso.with(getActivity())
+                    .load(sweetsList.get(position).thumb)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.sweetsListPhoto);
 
         }
 
@@ -338,15 +315,30 @@ public class SweetsFragment extends Fragment {
         }
 
     }
+
 }
 
 class Barfi {
     String name;
-    int photoId;
+    String thumb;
+    String desc;
+    float price;
 
-    Barfi(String name, int photoId) {
+    Barfi(String name, String thumb, String desc, float price) {
         this.name = name;
-        this.photoId = photoId;
+        this.thumb = thumb;
+        this.desc = desc;
+        this.price= price;
     }
+
+    public String getName()
+    {
+        return name;
+    }
+    public String getThumb(){
+        return thumb;
+    }
+    public String getDesc(){return desc;}
+    public String getPrice(){return price+"" ;}
 }
 

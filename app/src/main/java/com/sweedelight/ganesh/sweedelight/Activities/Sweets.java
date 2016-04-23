@@ -15,11 +15,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.sweedelight.ganesh.sweedelight.Fragments.SweetsFragment;
 import com.sweedelight.ganesh.sweedelight.R;
 
-public class Sweets extends AppCompatActivity {
+import java.util.HashMap;
+
+public class Sweets extends AppCompatActivity implements AsyncResponse {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -35,6 +38,9 @@ public class Sweets extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+    private static String result;
+    HTTPTask api_call;
+    HashMap<String, String> params;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,15 +62,15 @@ public class Sweets extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
 
+//        params = new HashMap<>();
+//        params.put("rt", "a/product/filter");
+//        params.put("category_id", "74");
+//        params.put("page", "1");
+//
+//
+//        api_call = new HTTPTask("GET", params, this, this);
+//        api_call.execute();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
     }
 
@@ -90,8 +96,19 @@ public class Sweets extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void processFinish(String output) {
+
+        result= output;
+        System.out.print(output);
+        //Toast.makeText("hello", );
+    }
+
+    public static String getResult(){
+        return result;
+    }
     /**
-     * A placeholder fragment containing a simple view.
+     * A placehold0er fragment containing a simple view.
      */
     public static class PlaceholderFragment extends Fragment {
         /**
@@ -176,15 +193,6 @@ public class Sweets extends AppCompatActivity {
                     return "Halwa";
                 case 10:
                     return "Others";
-
-
-
-
-
-
-
-
-
             }
             return null;
         }

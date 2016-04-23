@@ -2,6 +2,7 @@
         package com.sweedelight.ganesh.sweedelight.Activities;
 
 
+        import android.content.Intent;
         import android.os.Bundle;
         import android.support.design.widget.FloatingActionButton;
         import android.support.design.widget.Snackbar;
@@ -17,8 +18,10 @@
         import android.view.ViewGroup;
         import android.widget.ArrayAdapter;
         import android.widget.AutoCompleteTextView;
+        import android.widget.ImageView;
         import android.widget.TextView;
 
+        import com.squareup.picasso.Picasso;
         import com.sweedelight.ganesh.sweedelight.R;
 
         import java.util.ArrayList;
@@ -29,7 +32,11 @@
         public class IndividualItemActivity extends AppCompatActivity {
             private TabLayout tabLayout;
             private ViewPager viewPager;
-
+            private TextView name;
+            private TextView description;
+            private TextView price;
+            private ImageView thumbnail;
+            private TextView description_panel_item_name;
     private ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +44,25 @@
         setContentView(R.layout.activity_individual_item);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        name= (TextView)findViewById(R.id.itemname);
+        description=(TextView)findViewById(R.id.item_sub_title);
+        price=(TextView)findViewById(R.id.itemprice);
+        thumbnail=(ImageView)findViewById(R.id.categories_image);
         int weights= android.R.layout.simple_dropdown_item_1line;
         String[] weight_array= getResources().getStringArray(R.array.weight);
         List<String> weight_list = Arrays.asList(weight_array);
         ArrayAdapter<String> adapter_weight = new ArrayAdapter(this, weights, weight_list);
+
+        Intent in=getIntent();
+        name.setText(in.getStringExtra("name"));
+        description.setText(in.getStringExtra("desc"));
+        price.setText("Rs. " + in.getStringExtra("price"));
+        Picasso.with(this)
+                .load(in.getStringExtra("thumb"))
+                .placeholder(R.drawable.s4) // optional
+                .error(R.drawable.s4)         // optional
+                .into(thumbnail);
+
         final AutoCompleteTextView autocompleteView_weight =
                 (AutoCompleteTextView) findViewById(R.id.weight);
         autocompleteView_weight.setAdapter(adapter_weight);
@@ -49,9 +71,9 @@
             public void onClick(final View arg0) {
                 autocompleteView_weight.showDropDown();
 
-
             }
         });
+
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -60,7 +82,6 @@
         // Set up the ViewPager with the sections adapter.
         viewPager = (ViewPager) findViewById(R.id.containerindiv);
         setupViewPager(viewPager);
-
         tabLayout = (TabLayout) findViewById(R.id.tabsindiv);
         tabLayout.setupWithViewPager(viewPager);
 

@@ -38,7 +38,6 @@
                     android:layout_height="@dimen/_130sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginLeft="@dimen/_10sdp"
-                    android:src="@drawable/s5"
                     android:scaleType="fitXY"
                     />
                 <LinearLayout
@@ -53,7 +52,7 @@
                         android:id="@+id/itemname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Kaju Katli"
+
                         android:layout_alignParentLeft="true"
                         android:textSize="30sp"
                         android:layout_marginTop="15dp"
@@ -67,7 +66,7 @@
                         android:id="@+id/itemprice"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="₹100"
+
                         android:layout_alignParentLeft="true"
                         android:textSize="30sp"
                         android:layout_marginTop="15dp"
@@ -77,7 +76,7 @@
                         />
                     <TextView
                         android:id="@+id/item_sub_title"
-                        android:text="Subtitle lorem ipsum lorem ipsum lorem ipsum "
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="16dp"

@@ -1,455 +1,456 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:2:1-262:12
-	xmlns:android
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:2:11-69
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:2:1-262:12
 	package
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-application
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:5:5-260:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.weiwangcn.betterspinner:library:1.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library\1.1.0\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [me.himanshusoni.quantityview:quantity-view:1.1.1] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\me.himanshusoni.quantityview\quantity-view\1.1.1\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-	android:supportsRtl
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:9:9-35
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:8:9-41
-	android:allowBackup
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:6:9-35
-	android:icon
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:7:9-43
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:10:9-65
-activity#com.sweedelight.ganesh.sweedelight.Activities.MainActivity
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:11:9-14:59
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:13:13-45
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:14:13-56
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:12:13-52
-activity#com.sweedelight.ganesh.sweedelight.Activities.Splash
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:15:9-21:20
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:15:19-52
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:16:13-20:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:17:17-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:17:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:19:17-77
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:19:27-74
-activity#com.sweedelight.ganesh.sweedelight.Activities.AboutUs
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:22:9-30:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:24:13-60
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:26:13-56
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:23:13-47
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:27:13-29:94
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:28:17-63
-	android:value
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:29:17-91
-activity#com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:31:9-39:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:33:13-59
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:35:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:34:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:32:13-56
-activity#com.sweedelight.ganesh.sweedelight.Activities.AccountDetails
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:40:9-48:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:42:13-67
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:44:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:43:13-70
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:41:13-54
-activity#com.sweedelight.ganesh.sweedelight.Activities.ChangePassword
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:49:9-57:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:51:13-67
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:53:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:52:13-70
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:50:13-54
-activity#com.sweedelight.ganesh.sweedelight.Activities.AddressBook
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:58:9-66:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:60:13-64
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:62:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:61:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:59:13-51
-activity#com.sweedelight.ganesh.sweedelight.Activities.EditAddressBook
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:67:9-75:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:69:13-69
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:71:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:70:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:68:13-55
-activity#com.sweedelight.ganesh.sweedelight.Activities.WishList
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:76:9-84:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:78:13-61
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:80:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:79:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:77:13-48
-activity#com.sweedelight.ganesh.sweedelight.Activities.OrderHistory
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:85:9-93:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:87:13-65
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:89:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:88:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:86:13-52
-activity#com.sweedelight.ganesh.sweedelight.Activities.TransactionHistory
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:94:9-102:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:96:13-71
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:98:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:97:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:95:13-58
-activity#com.sweedelight.ganesh.sweedelight.Activities.RewardPoints
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:103:9-111:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:105:13-65
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:107:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:106:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:104:13-52
-activity#com.sweedelight.ganesh.sweedelight.Activities.NewsletterSubscription
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:112:9-120:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:114:13-75
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:116:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:115:13-69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:113:13-62
-activity#com.sweedelight.ganesh.sweedelight.Activities.Register
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:121:9-129:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:123:13-60
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:125:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:124:13-65
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:122:13-48
-activity#com.sweedelight.ganesh.sweedelight.Activities.ImageSlider
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:130:9-133:59
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:132:13-64
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:133:13-56
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:131:13-51
-activity#com.sweedelight.ganesh.sweedelight.Activities.Location
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:134:9-57
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:134:19-54
-activity#com.sweedelight.ganesh.sweedelight.Activities.Legal
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:135:9-144:20
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:137:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:136:13-45
-activity#com.sweedelight.ganesh.sweedelight.Activities.Sweets
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:145:9-153:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:147:13-58
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:149:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:148:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:146:13-46
-activity#com.sweedelight.ganesh.sweedelight.Activities.Categories
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:154:9-162:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:156:13-62
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:158:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:157:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:155:13-50
-activity#com.sweedelight.ganesh.sweedelight.Activities.Offers
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:163:9-171:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:165:13-58
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:167:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:166:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:164:13-46
-activity#com.sweedelight.ganesh.sweedelight.Activities.Savouries
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:172:9-180:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:174:13-61
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:176:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:175:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:173:13-49
-activity#com.sweedelight.ganesh.sweedelight.Activities.Review
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:181:9-189:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:183:13-58
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:185:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:184:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:182:13-46
-activity#com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:190:9-198:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:192:13-67
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:194:13-69
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:193:13-60
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:191:13-62
-activity#com.sweedelight.ganesh.sweedelight.Activities.Cakes
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:199:9-207:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:201:13-57
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:203:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:202:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:200:13-45
-activity#com.sweedelight.ganesh.sweedelight.Activities.Snacks
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:208:9-216:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:210:13-58
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:212:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:211:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:209:13-46
-activity#com.sweedelight.ganesh.sweedelight.Activities.Finedines
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:217:9-225:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:219:13-61
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:221:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:220:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:218:13-49
-activity#com.sweedelight.ganesh.sweedelight.Activities.Dryfruits
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:226:9-234:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:228:13-61
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:230:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:229:13-64
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:227:13-49
-meta-data#com.google.android.gms.version
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:239:9-241:69
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:240:13-58
-	android:value
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:241:13-66
-activity#com.sweedelight.ganesh.sweedelight.Activities.Login
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:243:9-251:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:245:13-57
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:247:13-44
-	android:parentActivityName
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:246:13-66
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:244:13-45
-activity#com.sweedelight.ganesh.sweedelight.Activities.ShoppingCart
-ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:252:9-259:20
-	android:label
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:254:13-65
-	android:theme
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:255:13-44
-	android:name
-		ADDED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:253:13-52
-uses-sdk
-INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.intuit.sdp:sdp-android:1.0.2] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.intuit.sdp\sdp-android\1.0.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.viewpagerindicator\library\2.4.1\AndroidManifest.xml:3:5-42
-MERGED from [com.weiwangcn.betterspinner:library:1.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library\1.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [me.himanshusoni.quantityview:quantity-view:1.1.1] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\me.himanshusoni.quantityview\quantity-view\1.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-	android:targetSdkVersion
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:23:9-75
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:5:5-260:19
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.weiwangcn.betterspinner:library:1.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library\1.1.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.1.1] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\me.himanshusoni.quantityview\quantity-view\1.1.1\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:10:9-65
+activity#com.sweedelight.ganesh.sweedelight.Activities.MainActivity
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:11:9-14:59
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:12:13-52
+activity#com.sweedelight.ganesh.sweedelight.Activities.Splash
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:15:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.sweedelight.ganesh.sweedelight.Activities.AboutUs
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:24:13-60
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:25:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:23:13-47
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:27:13-29:94
+	android:value
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:29:17-91
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:28:17-63
+activity#com.sweedelight.ganesh.sweedelight.Activities.AccountDashboard
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:33:13-59
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:34:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:35:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:32:13-56
+activity#com.sweedelight.ganesh.sweedelight.Activities.AccountDetails
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:40:9-48:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:42:13-67
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:43:13-70
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:41:13-54
+activity#com.sweedelight.ganesh.sweedelight.Activities.ChangePassword
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:49:9-57:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:51:13-67
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:52:13-70
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:50:13-54
+activity#com.sweedelight.ganesh.sweedelight.Activities.AddressBook
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:60:13-64
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:61:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:59:13-51
+activity#com.sweedelight.ganesh.sweedelight.Activities.EditAddressBook
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:67:9-75:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:69:13-69
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:70:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:68:13-55
+activity#com.sweedelight.ganesh.sweedelight.Activities.WishList
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:76:9-84:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:78:13-61
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:79:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:77:13-48
+activity#com.sweedelight.ganesh.sweedelight.Activities.OrderHistory
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:85:9-93:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:87:13-65
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:88:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:86:13-52
+activity#com.sweedelight.ganesh.sweedelight.Activities.TransactionHistory
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:94:9-102:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:96:13-71
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:97:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:98:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:95:13-58
+activity#com.sweedelight.ganesh.sweedelight.Activities.RewardPoints
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:103:9-111:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:105:13-65
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:106:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:104:13-52
+activity#com.sweedelight.ganesh.sweedelight.Activities.NewsletterSubscription
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:112:9-120:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:114:13-75
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:115:13-69
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:116:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:113:13-62
+activity#com.sweedelight.ganesh.sweedelight.Activities.Register
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:121:9-129:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:123:13-60
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:124:13-65
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:122:13-48
+activity#com.sweedelight.ganesh.sweedelight.Activities.ImageSlider
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:130:9-133:59
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:132:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:133:13-56
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:131:13-51
+activity#com.sweedelight.ganesh.sweedelight.Activities.Location
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:134:9-57
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:134:19-54
+activity#com.sweedelight.ganesh.sweedelight.Activities.Legal
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:135:9-144:20
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:137:13-66
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:136:13-45
+activity#com.sweedelight.ganesh.sweedelight.Activities.Sweets
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:145:9-153:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:147:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:148:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:149:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:146:13-46
+activity#com.sweedelight.ganesh.sweedelight.Activities.Categories
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:154:9-162:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:156:13-62
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:157:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:158:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:155:13-50
+activity#com.sweedelight.ganesh.sweedelight.Activities.Offers
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:163:9-171:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:165:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:166:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:167:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:164:13-46
+activity#com.sweedelight.ganesh.sweedelight.Activities.Savouries
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:172:9-180:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:174:13-61
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:175:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:176:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:173:13-49
+activity#com.sweedelight.ganesh.sweedelight.Activities.Review
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:181:9-189:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:183:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:184:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:185:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:182:13-46
+activity#com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:190:9-198:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:192:13-67
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:193:13-60
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:194:13-69
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:191:13-62
+activity#com.sweedelight.ganesh.sweedelight.Activities.Cakes
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:199:9-207:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:201:13-57
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:202:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:203:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:200:13-45
+activity#com.sweedelight.ganesh.sweedelight.Activities.Snacks
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:208:9-216:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:210:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:211:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:212:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:209:13-46
+activity#com.sweedelight.ganesh.sweedelight.Activities.Finedines
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:217:9-225:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:219:13-61
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:220:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:221:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:218:13-49
+activity#com.sweedelight.ganesh.sweedelight.Activities.Dryfruits
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:226:9-234:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:228:13-61
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:229:13-64
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:230:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:227:13-49
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:239:9-241:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:241:13-66
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:240:13-58
+activity#com.sweedelight.ganesh.sweedelight.Activities.Login
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:243:9-251:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:245:13-57
+	android:parentActivityName
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:246:13-66
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:247:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:244:13-45
+activity#com.sweedelight.ganesh.sweedelight.Activities.ShoppingCart
+ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:252:9-259:20
+	android:label
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:254:13-65
+	android:theme
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:255:13-44
+	android:name
+		ADDED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:253:13-52
+uses-sdk
+INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.intuit.sdp:sdp-android:1.0.2] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.intuit.sdp\sdp-android\1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.viewpagerindicator\library\2.4.1\AndroidManifest.xml:3:5-42
+MERGED from [com.weiwangcn.betterspinner:library:1.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library\1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [me.himanshusoni.quantityview:quantity-view:1.1.1] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\me.himanshusoni.quantityview\quantity-view\1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.0] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:12:5-81
+ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:12:22-78
+		ADDED from [com.daimajia.slider:library:1.1.5] C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\AndroidManifest.xml:12:22-78
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Warhawk\Desktop\SweeDelight\AndroidApp-master\app\src\main\AndroidManifest.xml:2:1-262:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Ankita\Documents\newPravalTech\AndroidApp-master\app\src\main\AndroidManifest.xml:2:1-262:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE

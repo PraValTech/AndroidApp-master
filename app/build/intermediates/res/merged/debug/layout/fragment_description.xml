@@ -12,7 +12,6 @@
         android:id="@+id/descitemname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kaji Katli"
         android:textSize="20dp"
         android:paddingRight="16dp"
         android:paddingLeft="16dp"

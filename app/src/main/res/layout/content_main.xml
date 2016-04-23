@@ -79,7 +79,7 @@
                         layout="@layout/custom_cardview_home"
                         android:onClick="openSweets"/>
                     <include
-                        android:id="@+id/categories_savouries"
+                        android:id="@+id/categories_namkeens"
                         layout="@layout/custom_cardview_home"/>
                     <include
                         android:id="@+id/categories_cakes"
@@ -92,6 +92,12 @@
                         layout="@layout/custom_cardview_home"/>
                     <include
                         android:id="@+id/categories_dryfruits"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_dairy"
+                        layout="@layout/custom_cardview_home"/>
+                    <include
+                        android:id="@+id/categories_others"
                         layout="@layout/custom_cardview_home"/>
 
                 </LinearLayout>

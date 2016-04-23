@@ -30,8 +30,8 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
 
     AsyncResponse delegate;
     int responseCode;
-
-    HTTPTask(String method_type, HashMap<String, String> params, AsyncResponse delegate, Context context) {
+   // int page=0;
+    public HTTPTask(String method_type, HashMap<String, String> params, AsyncResponse delegate, Context context) {
         this.method_type = method_type;
         this.params = params;
         this.params.put("api_key", API_KEY);
@@ -64,14 +64,20 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
             if (key.equals("token")) {
                 token = params.get(key);
             }
+//            if(key.equals("page"))
+//            {
+//               page= Integer.parseInt(params.get(key));
+//            }
         }
         Log.i("Parameter String",sbParams.toString());
     }
 
     protected String doInBackground(Void... urls) {
 
+
         try {
             HttpURLConnection urlConnection;
+
 
             // if method type is POST then pass params thru output stream
             if (method_type.equals("POST")) {
@@ -92,6 +98,7 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
 
             } else    //if method type is get then add params to URL
             {
+
                 String full_url = API_URL + "&" + sbParams.toString();
                 Log.i("URL", full_url);
                 URL url = new URL(full_url);
