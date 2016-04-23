@@ -244,7 +244,6 @@ We guarantee on time delivery, and the best quality! </body></Html>]]></string>
         <item>Order History</item>
         <item>Transaction History</item>
         <item>Reward Points</item>
-        <item>Newsletter Subscription</item>
         <item>Log Out</item>
     </string-array>
     <string name="title_activity_account_with_buttons">AccountWithButtons</string>
