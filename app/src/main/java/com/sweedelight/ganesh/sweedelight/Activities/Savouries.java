@@ -1,5 +1,6 @@
 package com.sweedelight.ganesh.sweedelight.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,7 +20,15 @@ import android.view.ViewGroup;
 import com.sweedelight.ganesh.sweedelight.Fragments.SavouriesFragment;
 import com.sweedelight.ganesh.sweedelight.R;
 
-public class Savouries extends AppCompatActivity {
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Savouries extends AppCompatActivity implements AsyncResponse2{
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -34,6 +44,12 @@ public class Savouries extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+    HTTPTask2 api_call;
+    HashMap<String, String> params;
+    public static List<Sweet> mixture = new ArrayList<>();
+    public static List<Sweet> bhujia = new ArrayList<>();
+    public static List<Sweet> chips = new ArrayList<>();
+    public static List<Sweet> namkeen = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,17 +70,44 @@ public class Savouries extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        params = new HashMap<>();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "92");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "91");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "102");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "108");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -86,6 +129,89 @@ public class Savouries extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void processFinish(String cat_id, String output) {
+
+
+        JSONObject result = null;
+        try {
+            result = new JSONObject(output);
+            JSONArray items = result.getJSONArray("rows");
+            JSONObject curr_item;
+            JSONObject curr_sweet;
+
+
+            if (cat_id == "92") {
+                Log.v("mixtures", "mixtures");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    mixture.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+
+            if (cat_id == "91") {
+                Log.v("bhujia", "bhujia");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    bhujia.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+
+            if (cat_id == "102") {
+                Log.v("chips", "chips");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    chips.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+
+            if (cat_id == "108") {
+                Log.v("namkeens", "namkeens");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    namkeen.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     /**
@@ -139,6 +265,17 @@ public class Savouries extends AppCompatActivity {
             SavouriesFragment savouriesFragment = new SavouriesFragment(position);
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
+
+            List<Sweet> sweetList = new ArrayList<>();
+            if (position == 0)
+                sweetList = mixture;
+            if (position == 1)
+                sweetList = bhujia;
+            if (position == 2)
+                sweetList = chips;
+            if (position == 3)
+                sweetList = namkeen;
+
             fragment= savouriesFragment.newInstance(position);
             return fragment;
             // getItem is called to instantiate the fragment for the given page.

@@ -54,7 +54,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:paddingRight="@dimen/_16sdp"
                         android:paddingLeft="@dimen/_16sdp"
-                        android:textColor="@color/md_orange_700"
+                        android:textColor="@color/colorAccent"
 
                         />
 

@@ -34,7 +34,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Item Name"
-                    android:textColor="#F9A825"
+                    android:textColor="@color/colorAccent"
                     android:textSize="20dp"
                     android:gravity="center_horizontal"
                     />
@@ -43,7 +43,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="4dp"
-                    android:background="#FFFF00"
+                    android:background="@color/colorPrimary"
                     android:orientation="vertical"
 
                     />

@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,9 +21,15 @@ import android.widget.Toast;
 import com.sweedelight.ganesh.sweedelight.Fragments.SweetsFragment;
 import com.sweedelight.ganesh.sweedelight.R;
 
-import java.util.HashMap;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-public class Sweets extends AppCompatActivity implements AsyncResponse {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Sweets extends AppCompatActivity implements AsyncResponse2 {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -39,16 +46,28 @@ public class Sweets extends AppCompatActivity implements AsyncResponse {
      */
     private ViewPager mViewPager;
     private static String result;
-    HTTPTask api_call;
+    HTTPTask2 api_call;
     HashMap<String, String> params;
+    public static List<Sweet> barfiArrayList = new ArrayList<>();
+    public static List<Sweet> rasbhare = new ArrayList<>();
+    public static List<Sweet> ladoos = new ArrayList<>();
+    public static List<Sweet> peda = new ArrayList<>();
+    public static List<Sweet> kaju = new ArrayList<>();
+    public static List<Sweet> dryfruits = new ArrayList<>();
+    public static List<Sweet> bengali = new ArrayList<>();
+    public static List<Sweet> ghee = new ArrayList<>();
+    public static List<Sweet> khowa = new ArrayList<>();
+    public static List<Sweet> halwa = new ArrayList<>();
+    public static List<Sweet> others = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sweets);
 
-      //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-       //setSupportActionBar(toolbar);
+        //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -62,14 +81,91 @@ public class Sweets extends AppCompatActivity implements AsyncResponse {
         tabLayout.setupWithViewPager(mViewPager);
 
 
-//        params = new HashMap<>();
-//        params.put("rt", "a/product/filter");
-//        params.put("category_id", "74");
-//        params.put("page", "1");
-//
-//
-//        api_call = new HTTPTask("GET", params, this, this);
-//        api_call.execute();
+        params = new HashMap<>();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "74");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "78");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "71");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "94");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "109");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "110");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "111");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "115");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "116");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "113");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "112");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
 
 
     }
@@ -97,16 +193,177 @@ public class Sweets extends AppCompatActivity implements AsyncResponse {
     }
 
     @Override
-    public void processFinish(String output) {
+    public void processFinish(String cat_id, String output) {
 
-        result= output;
-        System.out.print(output);
+        JSONObject result = null;
+        try {
+            result = new JSONObject(output);
+            JSONArray items = result.getJSONArray("rows");
+            JSONObject curr_item;
+            JSONObject curr_sweet;
+
+
+            if (cat_id == "74") {
+                Log.v("barfi", "barfi");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    barfiArrayList.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+            if (cat_id == "78") {
+                Log.v("ladoos", "ladoos");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    ladoos.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "71") {
+                Log.v("rasbhare", "rasbhare");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    rasbhare.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "94") {
+                Log.v("pedas", "pedas");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    peda.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "109") {
+                Log.v("kaju", "kaju");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    kaju.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "110") {
+                Log.v("dryfruits", "dryfruits");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    dryfruits.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+
+            if (cat_id == "111") {
+                Log.v("begali", "bengali");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    bengali.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "115") {
+                Log.v("ghee", "ghee");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    ghee.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "116") {
+                Log.v("khowa", "khowa");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    khowa.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+
+            if (cat_id == "113") {
+                Log.v("halwa", "halwa");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    halwa.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "112") {
+                Log.v("others", "others");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    others.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        Log.v("reached", "reached");
         //Toast.makeText("hello", );
     }
 
-    public static String getResult(){
+    public static String getResult() {
         return result;
     }
+
     /**
      * A placehold0er fragment containing a simple view.
      */
@@ -154,11 +411,34 @@ public class Sweets extends AppCompatActivity implements AsyncResponse {
 
         @Override
         public Fragment getItem(int position) {
-           Fragment fragment;
+            Fragment fragment;
             SweetsFragment sweetsFragment = new SweetsFragment(position);
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            fragment= sweetsFragment.newInstance(position);
+            List<Sweet> sweetList = new ArrayList<>();
+            if (position == 0)
+                sweetList = barfiArrayList;
+            if (position == 1)
+                sweetList = rasbhare;
+            if (position == 2)
+                sweetList = ladoos;
+            if (position == 3)
+                sweetList = peda;
+            if (position == 4)
+                sweetList = kaju;
+            if (position == 5)
+                sweetList = dryfruits;
+            if (position == 6)
+                sweetList = bengali;
+            if (position == 7)
+                sweetList = ghee;
+            if (position == 8)
+                sweetList = khowa;
+            if (position == 9)
+                sweetList = halwa;
+
+
+            fragment = sweetsFragment.newInstance(position);
             return fragment;
         }
 
@@ -191,10 +471,10 @@ public class Sweets extends AppCompatActivity implements AsyncResponse {
                     return "Special Khowa";
                 case 9:
                     return "Halwa";
-                case 10:
-                    return "Others";
+
             }
             return null;
         }
     }
 }
+

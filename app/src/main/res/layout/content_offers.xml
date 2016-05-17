@@ -25,7 +25,7 @@
             android:text="OFFERS AND CONDITIONS :"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="@color/md_amber_700"
+            android:textColor="@color/colorAccent"
             android:paddingBottom="10dp"/>
         <!-- A CardView that contains a TextView -->
         <android.support.v7.widget.CardView
@@ -44,7 +44,7 @@
                 android:padding="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#50514F"
+                android:textColor="@color/colorAccent"
                 />
         </android.support.v7.widget.CardView>
 
@@ -63,7 +63,7 @@
                 android:padding="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#50514F"
+                android:textColor="@color/colorAccent"
                 />
         </android.support.v7.widget.CardView>
 
@@ -82,7 +82,7 @@
                 android:padding="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#50514F"
+                android:textColor="@color/colorAccent"
                 />
         </android.support.v7.widget.CardView>
 

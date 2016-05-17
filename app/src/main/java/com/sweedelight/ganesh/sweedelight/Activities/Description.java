@@ -1,5 +1,6 @@
 package com.sweedelight.ganesh.sweedelight.Activities;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,6 +17,10 @@ import com.sweedelight.ganesh.sweedelight.R;
 
 public class Description extends Fragment{
 String  name;
+    @SuppressLint("ValidFragment")
+    public Description(String name){
+        this.name= name;
+    }
     public Description ()
     {
 
@@ -34,15 +39,11 @@ String  name;
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_description, container, false);
-        TextView name= (TextView) rootView.findViewById(R.id.descitemname);
-
-        return inflater.inflate(R.layout.fragment_description, container, false);
+        TextView t_name= (TextView) rootView.findViewById(R.id.DescModelValue);
+        t_name.setText(name);
+        return rootView;
 
     }
 
-    public void setName(String name_item){
 
-        TextView name= (TextView)getActivity().findViewById(R.id.DescModelValue);
-        name.setText(name_item);
-    }
 }

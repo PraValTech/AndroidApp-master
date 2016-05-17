@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,29 +14,43 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
 import com.sweedelight.ganesh.sweedelight.R;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-public class Categories extends AppCompatActivity {
+public class Categories extends AppCompatActivity implements AsyncResponse{
     private List<Category> categories;
-
+    RecyclerView mRecyclerView;
+    HTTPTask api_call;
+    HashMap<String, String> params;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
       //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
-        RecyclerView mRecyclerView = (RecyclerView)findViewById(R.id.categories_recycler_view);
+         mRecyclerView = (RecyclerView)findViewById(R.id.categories_recycler_view);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setNestedScrollingEnabled(false);
         LinearLayoutManager mLinearLayoutManager= new LinearLayoutManager(this);
         mLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
-        initializeData();
-        CategoriesAdapter adapter= new CategoriesAdapter(categories);
-        mRecyclerView.setAdapter(adapter);
+      //  initializeData();
+        params = new HashMap<>();
+        params.put("rt", "a/product/category");
+        params.put("category_id", "0");
+
+
+        api_call = new HTTPTask("GET", params, this, this);
+        api_call.execute();
+
         mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
@@ -67,7 +82,15 @@ public class Categories extends AppCompatActivity {
                     startActivity(in);
 
                 }
-                Toast.makeText(getApplicationContext(), category.name + " is selected!", Toast.LENGTH_SHORT).show();
+                else if(position==6) {
+                    Intent in = new Intent(Categories.this, DiaryProducts.class);
+                    startActivity(in);
+                }
+                else if(position==7) {
+                    Intent in = new Intent(Categories.this, Others.class);
+                    startActivity(in);
+                }
+                    Toast.makeText(getApplicationContext(), category.name + " is selected!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -87,14 +110,43 @@ public class Categories extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-    private void initializeData() {
-        categories = new ArrayList<>();
-        categories.add(new Category("Sweets", R.drawable.metro));
-        categories.add(new Category("Savouries", R.drawable.metro));
-        categories.add(new Category("Cakes", R.drawable.metro));
-        categories.add(new Category("Snacks", R.drawable.metro));
-        categories.add(new Category("Finedine", R.drawable.metro));
-        categories.add(new Category("Dryfruits", R.drawable.metro));
+
+
+    @Override
+    public void processFinish(String output) {
+
+        JSONObject result = null;
+        try {
+            result = new JSONObject(output);
+            JSONArray items = result.getJSONArray("subcategories");
+            JSONObject curr_item;
+
+            categories= new ArrayList<>();
+
+                Log.v("cakes", "cakes");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+
+
+                    categories.add(new Category(curr_item.getString("name"), curr_item.getString("thumb")
+                    ));
+                }
+
+
+
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        finally {
+            CategoriesAdapter adapter= new CategoriesAdapter(categories);
+            mRecyclerView.setAdapter(adapter);
+
+        }
+
     }
 
     public interface ClickListener {
@@ -128,7 +180,11 @@ public class Categories extends AppCompatActivity {
         @Override
         public void onBindViewHolder(CategoryViewHolder holder, int position) {
             holder.categoriesName.setText(categories.get(position).name);
-            holder.categoriesPhoto.setImageResource(categories.get(position).photoId);
+            Picasso.with(getApplicationContext())
+                    .load(categories.get(position).photoId)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.categoriesPhoto);
 
         }
         @Override
@@ -141,6 +197,7 @@ public class Categories extends AppCompatActivity {
             return categories.size();
         }
         List<Category> categories;
+
 
         CategoriesAdapter(List<Category> categories){
             this.categories = categories;
@@ -165,14 +222,15 @@ public class Categories extends AppCompatActivity {
 
 }
 
+
+
+
 class Category {
     String name;
-    int photoId;
+    String photoId;
 
-    Category(String name, int photoId) {
+    Category(String name, String  photoId) {
         this.name = name;
         this.photoId = photoId;
     }
 }
-
-

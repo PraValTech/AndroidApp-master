@@ -16,6 +16,7 @@ public class AsyncImageLoaderHelper {
     Context mContext;
     private Bitmap mPlaceHolderBitmap;
 
+
     public AsyncImageLoaderHelper(Context c){
         mContext = c;
     }

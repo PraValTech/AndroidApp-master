@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:text="MORE"
-                    android:textColor="#F9A825"
+                    android:textColor="@color/colorPrimaryDark"
                     style="?android:attr/borderlessButtonStyle"
                     android:onClick="openCategories"/>
             </RelativeLayout>

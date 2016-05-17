@@ -2,6 +2,7 @@ package com.sweedelight.ganesh.sweedelight.Fragments;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,8 +15,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+import com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity;
+import com.sweedelight.ganesh.sweedelight.Activities.RecyclerTouchListener;
+import com.sweedelight.ganesh.sweedelight.Activities.Savouries;
+import com.sweedelight.ganesh.sweedelight.Activities.Sweet;
 import com.sweedelight.ganesh.sweedelight.R;
 
 import java.util.ArrayList;
@@ -35,7 +40,7 @@ public class SavouriesFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private List<Savoury> savouriesList;
+    private List<Sweet> savouriesList;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private int index ;
@@ -97,16 +102,19 @@ public class SavouriesFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
 
         initializeData();
-        Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
+
         adapter = new SavouriesAdapter(savouriesList);
         mRecyclerView.setAdapter(adapter);
-       /* mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
+        mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Barfi barfi = sweetsList.get(position);
-                Intent in = new Intent(getActivity(), Categories.class);
+                Sweet barfi = savouriesList.get(position);
+                Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+                in.putExtra("name", barfi.getName());
+                in.putExtra("thumb", barfi.getThumb());
+                in.putExtra("desc", barfi.getDesc());
+                in.putExtra("price", barfi.getPrice());
                 startActivity(in);
-
             }
 
             @Override
@@ -114,7 +122,26 @@ public class SavouriesFragment extends Fragment {
 
             }
         }));
-*/
+        mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+                Sweet savoury = savouriesList.get(position);
+                Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+                in.putExtra("name",savoury.getName());
+                in.putExtra("thumb",savoury.getThumb());
+                in.putExtra("desc",savoury.getDesc());
+                in.putExtra("price",savoury.getPrice());
+                startActivity(in);
+            }
+
+            @Override
+            public void onLongClick(View view, int position) {
+
+            }
+        }));
+
+
+
         return v;
     }
 
@@ -157,37 +184,19 @@ public class SavouriesFragment extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
     private void initializeData() {
-        savouriesList= new ArrayList<>();
-        Log.d("hell",""+index);
+
         if(index == 0 ) {
-            savouriesList.add(new Savoury("Standard Mixture", R.drawable.s4));
-            savouriesList.add(new Savoury("Khara Mixture", R.drawable.s4));
-            savouriesList.add(new Savoury("Dal Mixture", R.drawable.s4));
-            savouriesList.add(new Savoury("Avarekai Mixture", R.drawable.s4));
-            savouriesList.add(new Savoury("Potato Mixture", R.drawable.s4));
+           savouriesList= new ArrayList<>(Savouries.mixture);
+
 
         } else if(index==1) {
-            savouriesList.add(new Savoury("Khara Sev", R.drawable.s4));
-            savouriesList.add(new Savoury("Aaloo Bhujiya",R.drawable.s4));
-            savouriesList.add(new Savoury("Sev Khamani", R.drawable.s4));
-            savouriesList.add(new Savoury("Palak Sev", R.drawable.s4));
-            savouriesList.add(new Savoury("Mota Sev", R.drawable.s4));
-            savouriesList.add(new Savoury("Marvadi Sev", R.drawable.s4));
+            savouriesList= new ArrayList<>(Savouries.bhujia);
 
         } else if(index==2){
-            savouriesList.add(new Savoury("Banana Chips", R.drawable.s4));
-            savouriesList.add(new Savoury("Potato Chips", R.drawable.s4));
-            savouriesList.add(new Savoury("Masala Chips", R.drawable.s4));
-            savouriesList.add(new Savoury(" Masala Potato Chips", R.drawable.s4));
+            savouriesList= new ArrayList<>(Savouries.chips);
 
         }else if(index==3){
-            savouriesList.add(new Savoury("Methi Roll", R.drawable.s4));
-            savouriesList.add(new Savoury("Methi Matree", R.drawable.s4));
-            savouriesList.add(new Savoury("Mathree", R.drawable.s4));
-            savouriesList.add(new Savoury("Masala Papdi", R.drawable.s4));
-            savouriesList.add(new Savoury("Namakpara", R.drawable.s4));
-            savouriesList.add(new Savoury("Nippattu", R.drawable.s4));
-            savouriesList.add(new Savoury("Swali", R.drawable.s4));
+            savouriesList= new ArrayList<>(Savouries.namkeen);
         }
 
     }
@@ -204,7 +213,7 @@ public class SavouriesFragment extends Fragment {
 
         @Override
         public SavouryViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_cardview_category, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_individual_item, parent, false);
             SavouryViewHolder mSavouryViewHolder = new SavouryViewHolder(v);
             //v.setOnClickListener(mOnClickListener);
             return mSavouryViewHolder;
@@ -213,7 +222,12 @@ public class SavouriesFragment extends Fragment {
         @Override
         public void onBindViewHolder(SavouryViewHolder holder, int position) {
             holder.savouriesListName.setText(savouriesList.get(position).name);
-            holder.savouriesListPhoto.setImageResource(savouriesList.get(position).photoId);
+            Picasso.with(getActivity())
+                    .load(savouriesList.get(position).thumb)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.savouriesListPhoto);
+            holder.price.setText(savouriesList.get(position).price+"");
 
         }
 
@@ -227,9 +241,9 @@ public class SavouriesFragment extends Fragment {
             return savouriesList.size();
         }
 
-        List<Savoury> savouriesList;
+        List<Sweet> savouriesList;
 
-        SavouriesAdapter(List<Savoury> savouriesList) {
+        SavouriesAdapter(List<Sweet> savouriesList) {
 
             this.savouriesList = savouriesList;
         }
@@ -238,25 +252,18 @@ public class SavouriesFragment extends Fragment {
             CardView cv;
             TextView savouriesListName;
             ImageView savouriesListPhoto;
+            TextView price;
 
             SavouryViewHolder(View itemView) {
                 super(itemView);
                 cv = (CardView) itemView.findViewById(R.id.card_view_category);
                 savouriesListName = (TextView) itemView.findViewById(R.id.textview_category_name);
                 savouriesListPhoto = (ImageView) itemView.findViewById(R.id.imageview_category);
+                price= (TextView)itemView.findViewById(R.id.price);
             }
         }
 
     }
 }
 
-class Savoury {
-    String name;
-    int photoId;
-
-    Savoury(String name, int photoId) {
-        this.name = name;
-        this.photoId = photoId;
-    }
-}
 

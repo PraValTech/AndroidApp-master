@@ -2,34 +2,23 @@ package com.sweedelight.ganesh.sweedelight.Activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.speech.RecognizerIntent;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.AnimationUtils;
-import android.view.animation.Interpolator;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.SliderLayout;
@@ -42,9 +31,6 @@ import com.sweedelight.ganesh.sweedelight.R;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -159,7 +145,7 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
-
+/*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,15 +153,15 @@ public class MainActivity extends AppCompatActivity
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
-        final CardView cardView = (CardView) findViewById(R.id.offers1_card_view);
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-
-            public void onClick(View v) {
-                v.getContext().startActivity(new Intent(v.getContext(), Sweets.class));
-            }
-        });
+        });*/
+//        final CardView cardView = (CardView) findViewById(R.id.offers1_card_view);
+//        cardView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//
+//            public void onClick(View v) {
+//                v.getContext().startActivity(new Intent(v.getContext(), Sweets.class));
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -330,6 +316,13 @@ public class MainActivity extends AppCompatActivity
 
                 setImage(imageView, hashMap.get("Sweets"));
             }
+            layout_sweets.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Sweets.class));
+                }
+            });
             LinearLayout layout_namkeens = (LinearLayout) findViewById(R.id.categories_namkeens);
             TextView textView2 = (TextView) layout_namkeens.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Namkeens")) {
@@ -337,6 +330,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_namkeens.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Namkeens"));
             }
+            layout_namkeens.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Savouries.class));
+                }
+            });
             LinearLayout layout_cakes = (LinearLayout) findViewById(R.id.categories_cakes);
             TextView textView3 = (TextView) layout_cakes.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Cakes &amp; Bakery")) {
@@ -344,6 +344,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_cakes.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Cakes &amp; Bakery"));
             }
+            layout_cakes.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Cakes.class));
+                }
+            });
             LinearLayout layout_snacks = (LinearLayout) findViewById(R.id.categories_snacks);
             TextView textView4 = (TextView) layout_snacks.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Evening Snacks")) {
@@ -351,6 +358,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_snacks.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Evening Snacks"));
             }
+            layout_snacks.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Snacks.class));
+                }
+            });
 
             LinearLayout layout_finedine = (LinearLayout) findViewById(R.id.categories_finedine);
             TextView textView5 = (TextView) layout_finedine.findViewById(R.id.categories_text);
@@ -359,6 +373,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_finedine.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("FineDine"));
             }
+            layout_finedine.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Finedines.class));
+                }
+            });
             LinearLayout layout_dryfruits = (LinearLayout) findViewById(R.id.categories_dryfruits);
             TextView textView6 = (TextView) layout_dryfruits.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Dry Fruits")) {
@@ -366,6 +387,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_dryfruits.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Dry Fruits"));
             }
+            layout_dryfruits.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Dryfruits.class));
+                }
+            });
             LinearLayout layout_dairy = (LinearLayout) findViewById(R.id.categories_dairy);
             TextView textView7 = (TextView) layout_dairy.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Dairy Products")) {
@@ -373,6 +401,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_dairy.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Dairy Products"));
             }
+            layout_dairy.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), DiaryProducts.class));
+                }
+            });
             LinearLayout layout_others = (LinearLayout) findViewById(R.id.categories_others);
             TextView textView8 = (TextView) layout_others.findViewById(R.id.categories_text);
             if (hashMap.containsKey("Others")) {
@@ -380,6 +415,13 @@ public class MainActivity extends AppCompatActivity
                 ImageView imageView = (ImageView) layout_others.findViewById(R.id.categories_image);
                 setImage(imageView, hashMap.get("Others"));
             }
+            layout_others.setOnClickListener(new View.OnClickListener() {
+                @Override
+
+                public void onClick(View v) {
+                    v.getContext().startActivity(new Intent(v.getContext(), Others.class));
+                }
+            });
 
 
         } catch (Exception e) {

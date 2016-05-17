@@ -2,6 +2,7 @@ package com.sweedelight.ganesh.sweedelight.Fragments;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,8 +15,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+import com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity;
+import com.sweedelight.ganesh.sweedelight.Activities.RecyclerTouchListener;
+import com.sweedelight.ganesh.sweedelight.Activities.Snacks;
+import com.sweedelight.ganesh.sweedelight.Activities.Sweet;
 import com.sweedelight.ganesh.sweedelight.R;
 
 import java.util.ArrayList;
@@ -35,7 +40,7 @@ public class SnacksFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private List<Snack> snacksList;
+    private List<Sweet> snacksList;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private int index ;
@@ -97,16 +102,20 @@ public class SnacksFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
 
         initializeData();
-        Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
         adapter = new SnacksAdapter(snacksList);
         mRecyclerView.setAdapter(adapter);
-       /* mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
+
+        mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Barfi barfi = sweetsList.get(position);
-                Intent in = new Intent(getActivity(), Categories.class);
+                Sweet snack = snacksList.get(position);
+                Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+                in.putExtra("name",snack.getName());
+                in.putExtra("thumb",snack.getThumb());
+                in.putExtra("desc",snack.getDesc());
+                in.putExtra("price",snack.getPrice());
                 startActivity(in);
-
             }
 
             @Override
@@ -114,7 +123,7 @@ public class SnacksFragment extends Fragment {
 
             }
         }));
-*/
+
         return v;
     }
 
@@ -157,35 +166,10 @@ public class SnacksFragment extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
     private void initializeData() {
-        snacksList= new ArrayList<>();
-        Log.d("hell",""+index);
-        if(index == 0 ) {
-            snacksList.add(new Snack("Dahi Puri", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Papdi Chaat", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Lacha Tokri", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Kachori", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Raj Kachori", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Puri", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Papdi Chaat", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Lacha Tokri", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Kachori", R.drawable.s4));
-            snacksList.add(new Snack("Dahi Raj Kachori", R.drawable.s4));
-
-        } else if(index==1) {
-            snacksList.add(new Snack("Kachori", R.drawable.s4));
-            snacksList.add(new Snack("Pav Bhaji",R.drawable.s4));
-            snacksList.add(new Snack("SpringRoll", R.drawable.s4));
-            snacksList.add(new Snack("Samosa ", R.drawable.s4));
-            snacksList.add(new Snack("Cutlet", R.drawable.s4));
-            snacksList.add(new Snack("Vada Pav", R.drawable.s4));
-            snacksList.add(new Snack("Kachori", R.drawable.s4));
-            snacksList.add(new Snack("Pav Bhaji",R.drawable.s4));
-            snacksList.add(new Snack("SpringRoll", R.drawable.s4));
-            snacksList.add(new Snack("Samosa ", R.drawable.s4));
-            snacksList.add(new Snack("Cutlet", R.drawable.s4));
-            snacksList.add(new Snack("Vada Pav", R.drawable.s4));
-
-        }
+        if (index == 0)
+            snacksList = new ArrayList<>(Snacks.chaat);
+        else if (index == 1)
+            snacksList = new ArrayList<>(Snacks.snack_time);
     }
 
     public interface ClickListener {
@@ -200,7 +184,7 @@ public class SnacksFragment extends Fragment {
 
         @Override
         public SnackViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_cardview_category, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_individual_item, parent, false);
             SnackViewHolder mSnackViewHolder = new SnackViewHolder(v);
             //v.setOnClickListener(mOnClickListener);
             return mSnackViewHolder;
@@ -209,7 +193,12 @@ public class SnacksFragment extends Fragment {
         @Override
         public void onBindViewHolder(SnackViewHolder holder, int position) {
             holder.snacksListName.setText(snacksList.get(position).name);
-            holder.snacksListPhoto.setImageResource(snacksList.get(position).photoId);
+            Picasso.with(getActivity())
+                    .load(snacksList.get(position).thumb)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.snacksListPhoto);
+            holder.price.setText(snacksList.get(position).price+"");
 
         }
 
@@ -223,9 +212,9 @@ public class SnacksFragment extends Fragment {
             return snacksList.size();
         }
 
-        List<Snack> snacksList;
+        List<Sweet> snacksList;
 
-        SnacksAdapter(List<Snack> snacksList) {
+        SnacksAdapter(List<Sweet> snacksList) {
 
             this.snacksList = snacksList;
         }
@@ -234,25 +223,18 @@ public class SnacksFragment extends Fragment {
             CardView cv;
             TextView snacksListName;
             ImageView snacksListPhoto;
+            TextView price;
 
             SnackViewHolder(View itemView) {
                 super(itemView);
                 cv = (CardView) itemView.findViewById(R.id.card_view_category);
                 snacksListName = (TextView) itemView.findViewById(R.id.textview_category_name);
                 snacksListPhoto = (ImageView) itemView.findViewById(R.id.imageview_category);
+                price=(TextView) itemView.findViewById(R.id.price);
+
             }
         }
 
-    }
-}
-
-class Snack {
-    String name;
-    int photoId;
-
-    Snack(String name, int photoId) {
-        this.name = name;
-        this.photoId = photoId;
     }
 }
 

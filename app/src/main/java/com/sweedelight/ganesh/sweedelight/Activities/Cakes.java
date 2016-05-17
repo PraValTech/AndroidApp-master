@@ -7,20 +7,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
 import com.sweedelight.ganesh.sweedelight.R;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-public class Cakes extends AppCompatActivity {
-    private List<Cake> cakes;
+public class Cakes extends AppCompatActivity implements AsyncResponse2{
+    private List<Sweet> cakes;
+    HTTPTask2 api_call;
+    HashMap<String, String> params;
+    private RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,28 +37,34 @@ public class Cakes extends AppCompatActivity {
         setContentView(R.layout.activity_cakes);
         //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
-        RecyclerView mRecyclerView = (RecyclerView)findViewById(R.id.cakes_recycler_view);
+         mRecyclerView = (RecyclerView)findViewById(R.id.cakes_recycler_view);
        mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setNestedScrollingEnabled(false);
         LinearLayoutManager mLinearLayoutManager= new LinearLayoutManager(this);
         mLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
-        initializeData();
-        CakesAdapter adapter= new CakesAdapter(cakes);
-        mRecyclerView.setAdapter(adapter);
+       // initializeData();
+
+        params = new HashMap<>();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "128");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
         mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Cake cake = cakes.get(position);
-                if(position==0) {
+                Sweet cake = cakes.get(position);
+
                     Intent in = new Intent(Cakes.this, IndividualItemActivity.class);
-                    startActivity(in);
-                }else if(position==1){
-                    Intent in = new Intent(Cakes.this, IndividualItemActivity.class);
+                    in.putExtra("name",cake.getName());
+                    in.putExtra("thumb",cake.getThumb());
+                    in.putExtra("desc",cake.getDesc());
+                    in.putExtra("price",cake.getPrice());
                     startActivity(in);
 
-                }
-                Toast.makeText(getApplicationContext(), cake.name + " is selected!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -69,20 +84,46 @@ public class Cakes extends AppCompatActivity {
 
        // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-    private void initializeData() {
-        cakes = new ArrayList<>();
-        cakes.add(new Cake("Honeycomb Pastry Cake", R.drawable.metro));
-        cakes.add(new Cake("Blueberry Cream Cake", R.drawable.metro));
-        cakes.add(new Cake("Mango cream cake ", R.drawable.metro));
-        cakes.add(new Cake("Litchi Cream Cake", R.drawable.metro));
-        cakes.add(new Cake("Honey Almond Cream Cake ", R.drawable.metro));
-        cakes.add(new Cake("Green Apple Cream Cake", R.drawable.metro));
-        cakes.add(new Cake("Honeycomb Pastry Cake", R.drawable.metro));
-        cakes.add(new Cake("Blueberry Cream Cake", R.drawable.metro));
-        cakes.add(new Cake("Mango cream cake ", R.drawable.metro));
-        cakes.add(new Cake("Litchi Cream Cake", R.drawable.metro));
-        cakes.add(new Cake("Honey Almond Cream Cake ", R.drawable.metro));
-        cakes.add(new Cake("Green Apple Cream Cake", R.drawable.metro));
+     @Override
+    public void processFinish(String cat_id, String output) {
+        JSONObject result = null;
+        try {
+            result = new JSONObject(output);
+            JSONArray items = result.getJSONArray("rows");
+            JSONObject curr_item;
+            JSONObject curr_sweet;
+            cakes= new ArrayList<>();
+
+            if (cat_id == "128") {
+                Log.v("cakes", "cakes");
+
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    cakes.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+
+            }
+
+
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        finally {
+            CakesAdapter adapter= new CakesAdapter(cakes);
+            mRecyclerView.setAdapter(adapter);
+
+        }
+
+
     }
 
     public interface ClickListener {
@@ -107,7 +148,7 @@ public class Cakes extends AppCompatActivity {
 
         @Override
         public CakeViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_cardview_category, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_individual_item, parent, false);
             CakeViewHolder mCakeViewHolder = new CakeViewHolder(v);
             //v.setOnClickListener(mOnClickListener);
             return mCakeViewHolder;
@@ -116,7 +157,12 @@ public class Cakes extends AppCompatActivity {
         @Override
         public void onBindViewHolder(CakeViewHolder holder, int position) {
             holder.cakesName.setText(cakes.get(position).name);
-            holder.cakesPhoto.setImageResource(cakes.get(position).photoId);
+            Picasso.with(getApplicationContext())
+                    .load(cakes.get(position).thumb)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.cakesPhoto);
+            holder.price.setText(cakes.get(position).price+"");
 
         }
         @Override
@@ -128,9 +174,9 @@ public class Cakes extends AppCompatActivity {
         public int getItemCount() {
             return cakes.size();
         }
-        List<Cake> cakes;
+        List<Sweet> cakes;
 
-        CakesAdapter(List<Cake> cakes){
+        CakesAdapter(List<Sweet> cakes){
             this.cakes = cakes;
         }
 
@@ -138,12 +184,15 @@ public class Cakes extends AppCompatActivity {
             CardView cv;
             TextView cakesName;
             ImageView cakesPhoto;
+            TextView price;
+
 
             CakeViewHolder(View itemView) {
                 super(itemView);
                 cv = (CardView)itemView.findViewById(R.id.card_view_category);
                 cakesName = (TextView)itemView.findViewById(R.id.textview_category_name);
                 cakesPhoto = (ImageView)itemView.findViewById(R.id.imageview_category);
+                price= (TextView)itemView.findViewById(R.id.price);
             }
         }
 
@@ -153,12 +202,4 @@ public class Cakes extends AppCompatActivity {
 
 }
 
-class Cake {
-    String name;
-    int photoId;
 
-    Cake(String name, int photoId) {
-        this.name = name;
-        this.photoId = photoId;
-    }
-}

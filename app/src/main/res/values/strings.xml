@@ -327,5 +327,10 @@ We guarantee on time delivery, and the best quality! </body></Html>]]></string>
     <string name="cookies">AC_SF_998BBE6B48=</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_shopping_cart">ShoppingCart</string>
+    <string name="title_activity_dairy_products">DairyProducts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_diary_products">DiaryProducts</string>
+    <string name="title_activity_others">Others</string>
 
 </resources>

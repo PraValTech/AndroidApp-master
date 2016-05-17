@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,13 +19,16 @@ import android.view.ViewGroup;
 import com.sweedelight.ganesh.sweedelight.Fragments.SnacksFragment;
 import com.sweedelight.ganesh.sweedelight.R;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 
-
-
-
-
-public class Snacks extends AppCompatActivity {
+public class Snacks extends AppCompatActivity implements AsyncResponse2{
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -40,6 +44,11 @@ public class Snacks extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+    HTTPTask2 api_call;
+    HashMap<String, String> params;
+    public static List<Sweet> chaat = new ArrayList<>();
+    public static List<Sweet> snack_time = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +68,21 @@ public class Snacks extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        params = new HashMap<>();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "119");
+        params.put("page", "1");
+
+
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
+
+        params.clear();
+        params.put("rt", "a/product/filter");
+        params.put("category_id", "120");
+        params.put("page", "1");
+        api_call = new HTTPTask2("GET", params, this, this);
+        api_call.execute();
 
 
 
@@ -93,6 +117,51 @@ public class Snacks extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void processFinish(String cat_id, String output) {
+        JSONObject result = null;
+        try {
+            result = new JSONObject(output);
+            JSONArray items = result.getJSONArray("rows");
+            JSONObject curr_item;
+            JSONObject curr_sweet;
+
+
+            if (cat_id == "119") {
+                Log.v("chaat", "chaat");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    chaat.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+            if (cat_id == "120") {
+                Log.v("snack", "snack");
+                for (int i = 0; i < items.length(); i++) {
+                    curr_item = items.getJSONObject(i);
+                    curr_sweet = curr_item.getJSONObject("cell");
+                    Log.v("in for loop", curr_sweet.toString());
+                    snack_time.add(new Sweet(curr_sweet.getString("name"),
+                            curr_sweet.getString("thumb"),
+                            curr_sweet.getString("description"),
+                            curr_sweet.getInt("price")
+                    ));
+                }
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        Log.v("reached", "reached");
+
     }
 
     /**
@@ -146,6 +215,12 @@ public class Snacks extends AppCompatActivity {
             SnacksFragment snacksFragment = new SnacksFragment(position);
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
+            List<Sweet> sweetList = new ArrayList<>();
+            if (position == 0)
+                sweetList = chaat;
+            if (position == 1)
+                sweetList = snack_time;
+
             fragment= snacksFragment.newInstance(position);
             return fragment;
         }
@@ -163,14 +238,6 @@ public class Snacks extends AppCompatActivity {
                     return "Chaats";
                 case 1:
                     return "Snack ";
-
-
-
-
-
-
-
-
             }
             return null;
         }

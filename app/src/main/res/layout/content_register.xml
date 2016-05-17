@@ -160,6 +160,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:entries="@array/areas"
+                    android:padding="0dp"
                     style="@style/Widget.AppCompat.Spinner.Underlined"/>
             </LinearLayout>
 
@@ -180,6 +181,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:entries="@array/cities"
+                    android:padding="0dp"
                     style="@style/Widget.AppCompat.Spinner.Underlined"/>
             </LinearLayout>
 
@@ -200,6 +202,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:entries="@array/states"
+                    android:padding="0dp"
                     style="@style/Widget.AppCompat.Spinner.Underlined"/>
             </LinearLayout>
 

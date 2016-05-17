@@ -2,6 +2,7 @@ package com.sweedelight.ganesh.sweedelight.Fragments;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,8 +15,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+import com.sweedelight.ganesh.sweedelight.Activities.Finedines;
+import com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity;
+import com.sweedelight.ganesh.sweedelight.Activities.RecyclerTouchListener;
+import com.sweedelight.ganesh.sweedelight.Activities.Sweet;
 import com.sweedelight.ganesh.sweedelight.R;
 
 import java.util.ArrayList;
@@ -35,7 +40,7 @@ public class FinedinesFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private List<Finedine> finedineList;
+    private List<Sweet> finedineList;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private int index ;
@@ -97,16 +102,37 @@ public class FinedinesFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
 
         initializeData();
-        Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
         adapter = new FinedinesAdapter(finedineList);
         mRecyclerView.setAdapter(adapter);
-       /* mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
+       mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
+           @Override
+           public void onClick(View view, int position) {
+               Sweet barfi = finedineList.get(position);
+               Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+               in.putExtra("name", barfi.getName());
+               in.putExtra("thumb", barfi.getThumb());
+               in.putExtra("desc", barfi.getDesc());
+               in.putExtra("price", barfi.getPrice());
+               startActivity(in);
+
+           }
+
+           @Override
+           public void onLongClick(View view, int position) {
+
+           }
+       }));
+
+        mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Barfi barfi = sweetsList.get(position);
-                Intent in = new Intent(getActivity(), Categories.class);
+                Sweet finedine = finedineList.get(position);
+                Intent in = new Intent(getActivity(), IndividualItemActivity.class);
+                in.putExtra("name", finedine.getName());
+                in.putExtra("thumb", finedine.getThumb());
+                in.putExtra("desc", finedine.getDesc());
+                in.putExtra("price", finedine.getPrice());
                 startActivity(in);
-
             }
 
             @Override
@@ -114,7 +140,9 @@ public class FinedinesFragment extends Fragment {
 
             }
         }));
-*/
+
+
+
         return v;
     }
 
@@ -157,58 +185,19 @@ public class FinedinesFragment extends Fragment {
         void onFragmentInteraction(Uri uri);
     }
     private void initializeData() {
-        finedineList= new ArrayList<>();
-        Log.d("hell", "" + index);
-        if(index == 0 ) {
-            finedineList.add(new Finedine("Choliya Shikampur", R.drawable.s4));
-            finedineList.add(new Finedine("Cherry Cooler", R.drawable.s4));
-            finedineList.add(new Finedine("Cheese Kurkuri", R.drawable.s4));
-            finedineList.add(new Finedine("Chatpate Sakarkand ke kebab", R.drawable.s4));
-            finedineList.add(new Finedine("Choliya Shikampur", R.drawable.s4));
-            finedineList.add(new Finedine("Cherry Cooler", R.drawable.s4));
-            finedineList.add(new Finedine("Cheese Kurkuri", R.drawable.s4));
-            finedineList.add(new Finedine("Chatpate Sakarkand ke kebab", R.drawable.s4));
+        if(index==0)
+            finedineList= new ArrayList<>(Finedines.atithi);
+        else if(index==1)
+            finedineList= new ArrayList<>(Finedines.chinese);
+        else if(index==2)
+            finedineList= new ArrayList<>(Finedines.indian_breads);
+        else if(index==3)
+            finedineList= new ArrayList<>(Finedines.north_spl);
+        else if(index==4)
+            finedineList= new ArrayList<>(Finedines.sizzler);
+        else if(index==5)
+            finedineList= new ArrayList<>(Finedines.south);
 
-        } else if(index==1) {
-            finedineList.add(new Finedine("Veg Fried Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Veg Sichuan Fried Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Schezwan Triple Fried Rice ", R.drawable.s4));
-            finedineList.add(new Finedine("Veg Fried Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Veg Sichuan Fried Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Schezwan Triple Fried Rice ", R.drawable.s4));
-        } else if(index==2) {
-            finedineList.add(new Finedine("Stuffed Paratha", R.drawable.s4));
-            finedineList.add(new Finedine("Puri Bhaji", R.drawable.s4));
-            finedineList.add(new Finedine("Phulka ", R.drawable.s4));
-            finedineList.add(new Finedine("Methi Paratha", R.drawable.s4));
-            finedineList.add(new Finedine("Wheat Paratha", R.drawable.s4));
-            finedineList.add(new Finedine("Chilly paratha ", R.drawable.s4));
-
-        } else if(index==3) {
-            finedineList.add(new Finedine("Curd Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Mixed Veg Curry", R.drawable.s4));
-            finedineList.add(new Finedine("Green Salad ", R.drawable.s4));
-            finedineList.add(new Finedine("Curd Rice", R.drawable.s4));
-            finedineList.add(new Finedine("Mixed Veg Curry", R.drawable.s4));
-            finedineList.add(new Finedine("Green Salad ", R.drawable.s4));
-
-        } else if(index==4) {
-            finedineList.add(new Finedine("Paneer Tikka", R.drawable.s4));
-            finedineList.add(new Finedine("Paneer Haryali", R.drawable.s4));
-            finedineList.add(new Finedine("Paneer Sizzler ", R.drawable.s4));
-            finedineList.add(new Finedine("Paneer Tikka", R.drawable.s4));
-            finedineList.add(new Finedine("Paneer Haryali", R.drawable.s4));
-            finedineList.add(new Finedine("Paneer Sizzler ", R.drawable.s4));
-
-        } else if(index==5) {
-            finedineList.add(new Finedine("Idli Vada", R.drawable.s4));
-            finedineList.add(new Finedine("Vada Sambhar", R.drawable.s4));
-            finedineList.add(new Finedine("Dosa ", R.drawable.s4));
-            finedineList.add(new Finedine("Idli Vada", R.drawable.s4));
-            finedineList.add(new Finedine("Vada Sambhar", R.drawable.s4));
-            finedineList.add(new Finedine("Dosa ", R.drawable.s4));
-
-        }
     }
 
     public interface ClickListener {
@@ -223,7 +212,7 @@ public class FinedinesFragment extends Fragment {
 
         @Override
         public FinedineViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_cardview_category, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_individual_item, parent, false);
             FinedineViewHolder mFinedineViewHolder = new FinedineViewHolder(v);
             //v.setOnClickListener(mOnClickListener);
             return mFinedineViewHolder;
@@ -232,7 +221,12 @@ public class FinedinesFragment extends Fragment {
         @Override
         public void onBindViewHolder(FinedineViewHolder holder, int position) {
             holder.finedineListName.setText(finedineList.get(position).name);
-            holder.finedineListPhoto.setImageResource(finedineList.get(position).photoId);
+            Picasso.with(getActivity())
+                    .load(finedineList.get(position).thumb)
+                    .placeholder(R.drawable.s4) // optional
+                    .error(R.drawable.s4)         // optional
+                    .into(holder.finedineListPhoto);
+            holder.price.setText(finedineList.get(position).price+"");
 
         }
 
@@ -246,9 +240,9 @@ public class FinedinesFragment extends Fragment {
             return finedineList.size();
         }
 
-        List<Finedine> finedineList;
+        List<Sweet> finedineList;
 
-        FinedinesAdapter(List<Finedine> finedineList) {
+        FinedinesAdapter(List<Sweet> finedineList) {
 
             this.finedineList = finedineList;
         }
@@ -257,25 +251,19 @@ public class FinedinesFragment extends Fragment {
             CardView cv;
             TextView finedineListName;
             ImageView finedineListPhoto;
+            TextView price;
 
             FinedineViewHolder(View itemView) {
                 super(itemView);
                 cv = (CardView) itemView.findViewById(R.id.card_view_category);
                 finedineListName = (TextView) itemView.findViewById(R.id.textview_category_name);
                 finedineListPhoto = (ImageView) itemView.findViewById(R.id.imageview_category);
+                price= (TextView)itemView.findViewById(R.id.price);
             }
         }
 
     }
 }
 
-class Finedine {
-    String name;
-    int photoId;
 
-    Finedine(String name, int photoId) {
-        this.name = name;
-        this.photoId = photoId;
-    }
-}
 

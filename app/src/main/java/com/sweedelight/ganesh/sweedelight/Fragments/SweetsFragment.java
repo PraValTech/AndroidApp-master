@@ -25,6 +25,7 @@ import com.sweedelight.ganesh.sweedelight.Activities.Categories;
 import com.sweedelight.ganesh.sweedelight.Activities.HTTPTask;
 import com.sweedelight.ganesh.sweedelight.Activities.IndividualItemActivity;
 import com.sweedelight.ganesh.sweedelight.Activities.RecyclerTouchListener;
+import com.sweedelight.ganesh.sweedelight.Activities.Sweet;
 import com.sweedelight.ganesh.sweedelight.Activities.Sweets;
 import com.sweedelight.ganesh.sweedelight.R;
 
@@ -48,12 +49,12 @@ import java.util.List;
  * create an instance of this fragment.
  */
 @SuppressLint("ValidFragment")
-public class SweetsFragment extends Fragment implements AsyncResponse {
+public class SweetsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private static List<Barfi> sweetsList = new ArrayList<>();
+    private static List<Sweet> sweetsList ;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -62,15 +63,12 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
     private RecyclerView mRecyclerView;
     private OnFragmentInteractionListener mListener;
     private SweetsAdapter adapter;
-    HTTPTask api_call;
-    HashMap<String, String> params;
-    int page=0;
-    int current_page=0;
-    String result;
+
+
 
     public SweetsFragment(int index) {
         // Required empty public constructor
-   this.index=index;
+        this.index=index;
     }
 
     /**
@@ -100,14 +98,7 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        params = new HashMap<>();
-        params.put("rt", "a/product/filter");
-        params.put("category_id", "74");
-        params.put("page", "2");
 
-
-        api_call = new HTTPTask("GET", params, this, getContext());
-        api_call.execute();
 
 //        params.put("page","2");
 //        api_call = new HTTPTask("GET", params, this, getContext());
@@ -115,7 +106,7 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
 
 
 
-        }
+    }
 
 
     @Override
@@ -133,15 +124,16 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
         mLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
 
-      // result= Sweets.getResult();
-       // initializeData(result);
+        // result= Sweets.getResult();
+         initializeData();
         //Toast.makeText(getActivity(), "Inside Recyler", Toast.LENGTH_SHORT).show();
-//        adapter = new SweetsAdapter(sweetsList);
-//        mRecyclerView.setAdapter(adapter);
+          adapter = new SweetsAdapter(sweetsList);
+            mRecyclerView.setAdapter(adapter);
         mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), mRecyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Barfi barfi = sweetsList.get(position);
+
+                Sweet barfi = sweetsList.get(position);
                 Intent in = new Intent(getActivity(), IndividualItemActivity.class);
                 in.putExtra("name",barfi.getName());
                 in.putExtra("thumb",barfi.getThumb());
@@ -157,6 +149,31 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
         }));
 
         return v;
+    }
+
+    private void initializeData() {
+
+        if(index==0)
+            sweetsList= new ArrayList<>(Sweets.barfiArrayList);
+        else if(index==1)
+            sweetsList= new ArrayList<>(Sweets.rasbhare);
+        else if(index==2)
+            sweetsList= new ArrayList<>(Sweets.ladoos);
+        else if(index==3)
+            sweetsList= new ArrayList<>(Sweets.peda);
+        else if(index==4)
+            sweetsList= new ArrayList<>(Sweets.kaju);
+        else if(index==5)
+            sweetsList= new ArrayList<>(Sweets.dryfruits);
+        else if(index==6)
+            sweetsList= new ArrayList<>(Sweets.bengali);
+        else if(index==7)
+            sweetsList= new ArrayList<>(Sweets.ghee);
+        else if(index==8)
+            sweetsList= new ArrayList<>(Sweets.khowa);
+        else if(index==9)
+            sweetsList= new ArrayList<>(Sweets.halwa);
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -183,64 +200,10 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
         mListener = null;
     }
 
-    @Override
-    public void processFinish(String output) {
-        JSONObject result = null;
-        boolean isFirst=false;
-            try {
-            result = new JSONObject(output);
-            page= Integer.parseInt(result.getString("total"));
-            current_page= result.getInt("page");
-            JSONArray items= result.getJSONArray("rows");
-            JSONObject curr_item;
-            JSONObject curr_sweet;
-
-                if(current_page==1)
-                {
-                    isFirst=true;
-                }
-            int l= items.length();
-            Log.v("length", l+"");
-            for (int i=0; i<l; i++) {
-                curr_item = items.getJSONObject(i);
-                curr_sweet = curr_item.getJSONObject("cell");
-                Log.v("in for loop", curr_sweet.toString());
-                sweetsList.add(new Barfi(curr_sweet.getString("name"),
-                        curr_sweet.getString("thumb"),
-                        curr_sweet.getString("description"),
-                        curr_sweet.getInt("price")
-                ));
-            }
-
-                for(int k=0; k<sweetsList.size(); k++)
-                {
-                    Log.v("item",sweetsList.get(k)+"");
-                }
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        finally {
-
-//            if(page>current_page)
-//            {
-//                params.put("page", (current_page+1)+"");
-//                api_call = new HTTPTask("GET",params,this,getContext());
-//                api_call.execute();
-//
-//            }
-//            else {
-         //       if(isFirst)
-                adapter = new SweetsAdapter(sweetsList);
-           //     else
-             //   adapter.notifyDataSetChanged();
-                mRecyclerView.setAdapter(adapter);
-            //}
-        }
-    }
 
 
-        /**
+
+    /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
      * to the activity and potentially other fragments contained in that
@@ -267,7 +230,7 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
 
         @Override
         public BarfiViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_cardview_category, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_individual_item, parent, false);
             BarfiViewHolder mBarfiViewHolder = new BarfiViewHolder(v);
             //v.setOnClickListener(mOnClickListener);
             return mBarfiViewHolder;
@@ -276,11 +239,12 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
         @Override
         public void onBindViewHolder(BarfiViewHolder holder, int position) {
             holder.sweetsListName.setText(sweetsList.get(position).name);
-           Picasso.with(getActivity())
+            Picasso.with(getActivity())
                     .load(sweetsList.get(position).thumb)
                     .placeholder(R.drawable.s4) // optional
                     .error(R.drawable.s4)         // optional
                     .into(holder.sweetsListPhoto);
+            holder.price.setText(sweetsList.get(position).price+"");
 
         }
 
@@ -294,9 +258,9 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
             return sweetsList.size();
         }
 
-        List<Barfi> sweetsList;
+        List<Sweet> sweetsList;
 
-        SweetsAdapter(List<Barfi> sweetsList) {
+        SweetsAdapter(List<Sweet> sweetsList) {
 
             this.sweetsList = sweetsList;
         }
@@ -305,40 +269,19 @@ public class SweetsFragment extends Fragment implements AsyncResponse {
             CardView cv;
             TextView sweetsListName;
             ImageView sweetsListPhoto;
+            TextView price;
+
 
             BarfiViewHolder(View itemView) {
                 super(itemView);
                 cv = (CardView) itemView.findViewById(R.id.card_view_category);
                 sweetsListName = (TextView) itemView.findViewById(R.id.textview_category_name);
                 sweetsListPhoto = (ImageView) itemView.findViewById(R.id.imageview_category);
+                price=(TextView)itemView.findViewById(R.id.price);
             }
         }
 
     }
 
-}
-
-class Barfi {
-    String name;
-    String thumb;
-    String desc;
-    float price;
-
-    Barfi(String name, String thumb, String desc, float price) {
-        this.name = name;
-        this.thumb = thumb;
-        this.desc = desc;
-        this.price= price;
-    }
-
-    public String getName()
-    {
-        return name;
-    }
-    public String getThumb(){
-        return thumb;
-    }
-    public String getDesc(){return desc;}
-    public String getPrice(){return price+"" ;}
 }
 

@@ -36,7 +36,7 @@
             private TextView description;
             private TextView price;
             private ImageView thumbnail;
-            private TextView description_panel_item_name;
+            private String description_panel_item_name="";
     private ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +55,7 @@
 
         Intent in=getIntent();
         name.setText(in.getStringExtra("name"));
+        description_panel_item_name= in.getStringExtra("name");
         description.setText(in.getStringExtra("desc"));
         price.setText("Rs. " + in.getStringExtra("price"));
         Picasso.with(this)
@@ -74,7 +75,7 @@
             }
         });
 
-
+        Description description= new Description(in.getStringExtra("name"));
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
      //   mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -85,20 +86,12 @@
         tabLayout = (TabLayout) findViewById(R.id.tabsindiv);
         tabLayout.setupWithViewPager(viewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
             private void setupViewPager(ViewPager viewPager) {
                 ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-                adapter.addFragment(new Description(), "Description");
+                adapter.addFragment(new Description(description_panel_item_name), "Description");
                 adapter.addFragment(new FragReview(), "Review");
                 viewPager.setAdapter(adapter);
             }

@@ -28,12 +28,14 @@ public class HTTPTask extends AsyncTask<Void, Void, String> {
     String method_type;
     HashMap<String, String> params;
 
+
     AsyncResponse delegate;
     int responseCode;
    // int page=0;
     public HTTPTask(String method_type, HashMap<String, String> params, AsyncResponse delegate, Context context) {
         this.method_type = method_type;
         this.params = params;
+
         this.params.put("api_key", API_KEY);
         this.delegate = delegate;
         this.cookies = context.getResources().getString(R.string.cookies);
